@@ -8,7 +8,8 @@ Python: Ensure you have a working Python environment on your machine.
 ### Installation
 1. Install Required Libraries:
    ```
-   pip install rispy beautifulsoup4
+   pip install rispy beautifulsoup4 spacy
+   python -m spacy download en_core_web_lg
    ```
 2. Clone this repository:
    ```
