@@ -5,7 +5,7 @@ from spacy.matcher import PhraseMatcher
 
 
 def clean_html(raw_html):
-	"""
+    """
     Clean HTML content and extract plain text.
 
     Args:
