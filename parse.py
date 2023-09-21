@@ -2,7 +2,7 @@ import rispy
 from bs4 import BeautifulSoup
 import spacy
 from spacy.matcher import PhraseMatcher
-
+from collections import Counter
 
 def clean_html(raw_html):
     soup = BeautifulSoup(raw_html, "html.parser")
@@ -28,13 +28,27 @@ def tokenize_and_match(text):
 	    
 	return matched_texts
 
-entries = []
-with open('madlc_citations.ris', 'r', encoding='utf-8') as file:
-    entries = list(rispy.load(file))
+def count_keywords(file_name='madlc_citations.ris'):
+	entries = []
+	with open(file_name, 'r', encoding='utf-8') as file:
+	    entries = list(rispy.load(file))
 
-entries = [dict(i) for i in entries]
+	entries = [dict(i) for i in entries]
+	keys = {}
+	for entry in entries:
+		title = clean_html(entry['title'])
+		abstract = clean_html(entry['abstract'])
+		keywords = Counter(set(tokenize_and_match(title)))
+		if len(keywords) < 1:
+			keywords = Counter(tokenize_and_match(abstract))
+			if len(keywords) < 1:
+				continue
+		top_keyword = sorted(keywords, key=lambda x: (-keywords[x], x))[0]
+		if top_keyword not in keys.keys():
+			keys[top_keyword] = 1
+		else:
+			keys[top_keyword] +=1
+	return keys
 
-for entry in entries:
-	title = clean_html(entry['title'])
-	abstract = clean_html(entry['abstract'])
-	print(tokenize_and_match(title))
+
+
