@@ -47,6 +47,16 @@ def tokenize_and_match(text):
 	return matched_texts
 
 def count_keywords(file_name='madlc_citations.ris'):
+	"""
+	Count occurences of keywords in the titles  and abstracts of RIS entries. 
+
+	Args:
+		file_name (str, optional): the name of RIS file to process. 
+
+	Returns:
+		dict: A dictionary where keys are keywords and values are the number of times each keyword appears
+              in either the titles or abstracts of the RIS entries.
+	"""	
 	entries = []
 	with open(file_name, 'r', encoding='utf-8') as file:
 	    entries = list(rispy.load(file))
