@@ -5,11 +5,29 @@ from spacy.matcher import PhraseMatcher
 from collections import Counter
 
 def clean_html(raw_html):
+    """
+    Clean HTML content and extract plain text.
+
+    Args:
+        raw_html (str): The raw HTML content to be cleaned.
+
+    Returns:
+        str: The plain text extracted from the HTML content.
+    """
     soup = BeautifulSoup(raw_html, "html.parser")
     cleantext = soup.get_text()
     return cleantext
 
 def tokenize_and_match(text):
+	"""
+	Tokenize and match specific phrases in the input text using spaCy.
+
+	Args:
+		text (str): The text in which phrases will be matched.
+
+	Returns:
+		list of str: A list of matched phrases found in the input text.
+	"""	
 	nlp = spacy.load('en_core_web_sm')
 	matcher = PhraseMatcher(nlp.vocab)
 
