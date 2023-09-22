@@ -71,7 +71,7 @@ def count_keywords(file_name='madlc_citations.ris'):
         if len(keywords) < 1:
             keywords = Counter(tokenize_and_match(abstract))
             if len(keywords) < 1:
-                top_keyword = 'Others'
+                top_keyword = 'others'
             else:
                 top_keyword = sorted(keywords, key=lambda x: (-keywords[x], x))[0]
         else:
