@@ -3,6 +3,7 @@ import pandas as pd
 from Bio import Entrez
 from Bio.Entrez import HTTPError
 
+Entrez.email = 'teruel.anna@gmail.com'
 
 def common_to_scientific_names(common_names:list):
     """
