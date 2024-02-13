@@ -8,7 +8,7 @@ Python: Ensure you have a working Python environment on your machine.
 ### Installation
 1. Install Required Libraries:
    ```
-   pip install rispy beautifulsoup4 spacy
+   pip install rispy beautifulsoup4 spacy feedparser
    python -m spacy download en_core_web_sm
    ```
 2. Clone this repository:
