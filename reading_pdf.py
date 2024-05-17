@@ -1,5 +1,5 @@
 import os
-import fitz  # PyMuPDF
+import fitz  
 
 def check_deeplabcut_citation(pdf_path):
     """
