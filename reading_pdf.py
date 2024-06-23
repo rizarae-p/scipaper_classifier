@@ -153,3 +153,89 @@ def get_animals_from_papers(paper_paths):
     #         if "Conclusion" in page_text:
     #             start = False
     # print(full_text)
+
+
+
+import os
+import fitz
+from parse import tokenize_and_match
+
+def extract_section_text(pdf_path, section_name):
+    """
+    Extract text from a specified section of a PDF document.
+
+    Args:
+        pdf_path (str): The path to the PDF file.
+        section_name (str): The name of the section to extract.
+
+    Returns:
+        str: The extracted text from the specified section.
+    """
+    full_text = ""
+    with fitz.open(pdf_path) as pdf_document:
+        toc = pdf_document.get_toc()
+        if len(toc) == 0 or all(entry[2] == 0 for entry in toc):
+            print("No table of contents found, reading full document.")
+            for page_num in range(len(pdf_document)): 
+                page_text = pdf_document.load_page(page_num).get_text("text")
+                full_text += "\n" + page_text
+        else:
+            print("Table of contents found.")
+            sections = {}
+            current_section = None
+            for toc_entry in toc:
+                level, title, page_num = toc_entry
+                page_num -= 1
+                if page_num < 0: 
+                    continue
+                if section_name in title:
+                    if current_section is not None:
+                        sections[current_section]['end'] = page_num
+                    current_section = section_name
+                    sections[current_section] = {'start': page_num, 'end': None}
+                elif current_section is not None:
+                    sections[current_section]['end'] = page_num
+                    current_section = None
+            if current_section is not None:
+                sections[current_section]['end'] = len(pdf_document)
+            
+            if section_name in sections:
+                start, end = sections[section_name]['start'], sections[section_name]['end']
+                for page_num in range(start, end):
+                    page_text = pdf_document.load_page(page_num).get_text("text")
+                    full_text += "\n" + page_text
+
+    return full_text
+
+def get_animals_from_abstract(pdf_path):
+    """
+    Extract a list of animals mentioned in the Abstract section of a PDF document.
+
+    Args:
+        pdf_path (str): The path to the PDF file.
+
+    Returns:
+        list: A list of animals mentioned in the Abstract section.
+    """
+    abstract_text = extract_section_text(pdf_path, "Abstract")
+    animals = tokenize_and_match(abstract_text)
+    return animals
+
+def analyze_papers_from_abstracts(papers_with_deeplabcut_dict):
+    """
+    Analyze the PDF files that cite DeepLabCut to extract and count mentions of animals in the Abstract section.
+
+    Args:
+        papers_with_deeplabcut_dict (dict): A dictionary containing filenames of papers with citations to DeepLabCut.
+
+    Returns:
+        dict: A dictionary where keys are paper titles and values are lists of animals mentioned in each paper.
+    """
+    animals_in_papers = {}
+
+    for filename, file_path in papers_with_deeplabcut_dict.items():
+        print(f"Processing {file_path}...")
+        animals = get_animals_from_abstract(file_path)
+        animals_in_papers[filename] = animals
+
+    return animals_in_papers
