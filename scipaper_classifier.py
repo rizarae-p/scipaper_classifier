@@ -37,6 +37,17 @@ def tokenize_and_match(text):
     return matched_texts
 
 def get_top_keyword(aanimals):
+    """
+      This function identifies the most frequent animal term 
+      (excluding terms from a watchlist) from a list of animal mentions.
+
+      Args:
+          aanimals (list): A list containing animal mentions extracted from text.
+
+      Returns:
+          str: The most frequent animal term (excluding watchlist terms), 
+              or False if no animal terms are found.
+      """
     watch_terms = ["egg","python","rodent","pupa","larva","primate","insect","bug"]
 
     animals = [a for a in aanimals if a not in watch_terms]
@@ -51,6 +62,17 @@ def get_top_keyword(aanimals):
     return top_keyword        
 
 def isSupplementary(pdf_path):
+     """
+      This function checks if the name of a PDF file contains keywords 
+      indicating it's a supplementary file.
+
+      Args:
+          pdf_path (str): The path to the PDF file.
+
+      Returns:
+          bool: True if the filename suggests it's a supplementary file, False otherwise.
+      """
+
     keywords = ["Supplementary","supplementary","suppl","supplement"]
     for i in keywords:
         if i in pdf_path:
@@ -58,6 +80,19 @@ def isSupplementary(pdf_path):
     return False
 
 def get_top_keyword_from_pdf(pdf_path):
+     """
+      This function analyzes a PDF to find the most frequent animal term 
+      (excluding terms from a watchlist) from the relevant sections 
+      ("Methodology", "Materials and Methods", "Results", "Methods"). 
+      It skips supplementary files.
+
+      Args:
+          pdf_path (str): The path to the PDF file.
+
+      Returns:
+          str: The most frequent animal term (excluding watchlist terms), 
+              or False if no animal terms are found or the file is supplementary.
+      """
     if isSupplementary(pdf_path):
         return False
     full_text = ""
@@ -108,6 +143,23 @@ def get_top_keyword_from_pdf(pdf_path):
     return top_keyword
 
 def analyze_papers(directory):
+    """
+      This function analyzes all PDF files in a given directory to identify 
+      the most frequent animal term (excluding terms from a watchlist) 
+      for each paper. It extracts text from relevant sections 
+      ("Methodology", "Materials and Methods", "Results", "Methods") 
+      and skips supplementary files.
+
+      Args:
+          directory (str): The path to the directory containing PDF files.
+
+      Returns:
+          tuple: A tuple containing three elements:
+              - total_counter (dict): A dictionary where keys are animal terms 
+                  (excluding watchlist terms) and values are their total counts across all papers.
+              - tot (int): The total number of animal terms found (excluding watchlist terms).
+              - skipped (int): The number of PDF files skipped (e.g., supplementary files).
+    """
     tot = 0
     skipped = 0 
     total_counter = {}
