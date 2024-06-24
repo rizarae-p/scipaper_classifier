@@ -1,0 +1,1344 @@
+
+TY  - JOUR
+AU  - Morrill, Kathleen; Chen, Frances; Karlsson, Elinor
+TI  - Comparative neurogenetics of dog behavior complements efforts towards human neuropsychiatric genetics.
+PY  - 2023
+AB  - NA
+SP  - 1231
+EP  - 1246
+JF  - Human genetics
+VL  - 142
+IS  - 8
+PB  - 
+DO  - 10.1007/s00439-023-02580-y
+ER  - 
+
+TY  - JOUR
+AU  - Sakamoto, Naoaki; Kakeno, Hitoshi; Ozaki, Noriko; Miyazaki, Yusuke; Kobayashi, Koji; Murata, Takahisa
+TI  - Marker-less tracking system for multiple mice using Mask R-CNN.
+PY  - 2023
+AB  - Although the appropriate evaluation of mouse behavior is crucial in pharmacological research, most current methods focus on single mouse behavior under light conditions, owing to the limitations of human observation and experimental tools. In this study, we aimed to develop a novel marker-less tracking method for multiple mice with top-view videos using deep-learning-based techniques. The following stepwise method was introduced: (i) detection of mouse contours, (ii) assignment of identifiers (IDs) to each mouse, and (iii) correction of mis-predictions. The behavior of C57BL/6 mice was recorded in an open-field arena, and the mouse contours were manually annotated for hundreds of frame images. Then, we trained the mask regional convolutional neural network (Mask R-CNN) with all annotated images. The mouse contours predicted by the trained model in each frame were assigned to IDs by calculating the similarities of every mouse pair between frames. After assigning IDs, correction steps were applied to remove the predictive errors semi-automatically. The established method could accurately predict two to four mice for first-look videos recorded under light conditions. The method could also be applied to videos recorded under dark conditions, extending our ability to accurately observe and analyze the sociality of nocturnal mice. This technology would enable a new approach to understand mouse sociality and advance the pharmacological research.
+SP  - 1086242
+EP  - NA
+JF  - Frontiers in behavioral neuroscience
+VL  - 16
+IS  - NA
+PB  - 
+DO  - 10.3389/fnbeh.2022.1086242
+ER  - 
+
+TY  - JOUR
+AU  - Bordes, Joeri; Miranda, Lucas; Müller-Myhsok, Bertram; Schmidt, Mathias V
+TI  - Advancing social behavioral neuroscience by integrating ethology and comparative psychology methods through machine learning.
+PY  - 2023
+AB  - Social behavior is naturally occurring in vertebrate species, which holds a strong evolutionary component and is crucial for the normal development and survival of individuals throughout life. Behavioral neuroscience has seen different influential methods for social behavioral phenotyping. The ethological research approach has extensively investigated social behavior in natural habitats, while the comparative psychology approach was developed utilizing standardized and univariate social behavioral tests. The development of advanced and precise tracking tools, together with post-tracking analysis packages, has recently enabled a novel behavioral phenotyping method, that includes the strengths of both approaches. The implementation of such methods will be beneficial for fundamental social behavioral research but will also enable an increased understanding of the influences of many different factors that can influence social behavior, such as stress exposure. Furthermore, future research will increase the number of data modalities, such as sensory, physiological, and neuronal activity data, and will thereby significantly enhance our understanding of the biological basis of social behavior and guide intervention strategies for behavioral abnormalities in psychiatric disorders.
+SP  - 105243
+EP  - 105243
+JF  - Neuroscience and biobehavioral reviews
+VL  - 151
+IS  - NA
+PB  - 
+DO  - 10.1016/j.neubiorev.2023.105243
+ER  - 
+
+TY  - JOUR
+AU  - Bordes, Joeri; Miranda, Lucas; Reinhardt, Maya; Narayan, Sowmya; Hartmann, Jakob; Newman, Emily L; Brix, Lea Maria; van Doeselaar, Lotte; Engelhardt, Clara; Dillmann, Larissa; Mitra, Shiladitya; Ressler, Kerry J; Pütz, Benno; Agakov, Felix; Müller-Myhsok, Bertram; Schmidt, Mathias V
+TI  - Automatically annotated motion tracking identifies a distinct social behavioral profile following chronic social defeat stress.
+PY  - 2023
+AB  - Severe stress exposure increases the risk of stress-related disorders such as major depressive disorder (MDD). An essential characteristic of MDD is the impairment of social functioning and lack of social motivation. Chronic social defeat stress is an established animal model for MDD research, which induces a cascade of physiological and behavioral changes. Current markerless pose estimation tools allow for more complex and naturalistic behavioral tests. Here, we introduce the open-source tool DeepOF to investigate the individual and social behavioral profile in mice by providing supervised and unsupervised pipelines using DeepLabCut-annotated pose estimation data. Applying this tool to chronic social defeat in male mice, the DeepOF supervised and unsupervised pipelines detect a distinct stress-induced social behavioral pattern, which was particularly observed at the beginning of a novel social encounter and fades with time due to habituation. In addition, while the classical social avoidance task does identify the stress-induced social behavioral differences, both DeepOF behavioral pipelines provide a clearer and more detailed profile. Moreover, DeepOF aims to facilitate reproducibility and unification of behavioral classification by providing an open-source tool, which can advance the study of rodent individual and social behavior, thereby enabling biological insights and, for example, subsequent drug development for psychiatric disorders.
+SP  - 4319
+EP  - NA
+JF  - Nature communications
+VL  - 14
+IS  - 1
+PB  - 
+DO  - 10.1038/s41467-023-40040-3
+ER  - 
+
+TY  - CHAP
+AU  - Chu, Xi; Ågmo, Anders
+TI  - Evaluation of Sexual Behavior in Laboratory vs Seminatural Conditions
+PY  - 2023
+AB  - Sexual behavior is, by necessity, sexually dimorphic. Males transfer sperm to females, whereas females receive sperm from males. Discussions of sex differences in copulatory behavior are consequently trivial. However, the behaviors associated with copulation, for example mate choice or postcopulatory reactions, may well be similar in males and females. Such differences, even subtle, are far easier to observe in seminatural environments than in the standard laboratory cage. We will present examples of the use of seminatural environments in insects and rodents. Even though most studies of insect sexual behavior are performed in relatively simple laboratory procedures, there are also some studies performed in natural or seminatural conditions. We briefly describe the most common procedures used and mention the main results. It is noteworthy that insect studies focus on sexual approach behaviors, particularly the role of visual and olfactory stimuli in mate location. The actual copulatory behavior, i.e., how gametes are transferred from one individual to another, seems to be of less interest. The sexual behavior of rats has traditionally been studied in heterosexual pairs, despite the fact that they often copulate in groups. Nevertheless, data obtained in the simplified environment have advanced knowledge of the endocrine and neurobiological control of sex behavior in a quite spectacular way. The understanding of the dynamics of the sexual interaction and the possible function of the many peculiarities of rat sexual behavior has not advanced to a similar degree. Studies in seminatural environments may provide valuable data concerning sociosexual interactions and how such interactions are modified by contextual events. Furthermore, observations made in an environment, which incorporates the basic features of rats’ natural habitat, offer some external validity. This is of importance when we want to generalize our results to contexts outside the laboratory, and it becomes of paramount important when we want to make inferences about behavior in other species, for example the human. We offer here a detailed description of an environment designed for studies of group-living rats, with notes on the observation procedure and the analysis of the large quantity of data generated in the environment.
+SP  - 171
+EP  - 195
+JF  - Neuromethods
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1007/978-1-0716-3234-5_8
+ER  - 
+
+TY  - JOUR
+AU  - Josserand, Mathilde; Rosa-Salva, Orsola; Versace, Elisabetta; Lemaire, Bastien S.
+TI  - Visual Field Analysis: A reliable method to score left and right eye use using automated tracking.
+PY  - 2021
+AB  - Brain and behavioural asymmetries have been documented in various taxa. Many of these asymmetries involve preferential left and right eye use. However, measuring eye use through manual frame-by-frame analyses from video recordings is laborious and may lead to biases. Recent progress in technology has allowed the development of accurate tracking techniques for measuring animal behaviour. Amongst these techniques, DeepLabCut, a Python-based tracking toolbox using transfer learning with deep neural networks, offers the possibility to track different body parts with unprecedented accuracy. Exploiting the potentialities of DeepLabCut, we developed Visual Field Analysis, an additional open-source application for extracting eye use data. To our knowledge, this is the first application that can automatically quantify left–right preferences in eye use. Here we test the performance of our application in measuring preferential eye use in young domestic chicks. The comparison with manual scoring methods revealed a near perfect correlation in the measures of eye use obtained by Visual Field Analysis. With our application, eye use can be analysed reliably, objectively and at a fine scale in different experimental paradigms.
+SP  - 1
+EP  - 10
+JF  - Behavior research methods
+VL  - 54
+IS  - 4
+PB  - 
+DO  - 10.3758/s13428-021-01702-6
+ER  - 
+
+TY  - JOUR
+AU  - Magaju, Dipendra; Montgomery, John; Franklin, Paul; Baker, Cindy; Friedrich, Heide
+TI  - Machine learning based assessment of small-bodied fish tracking to evaluate spoiler baffle fish passage design.
+PY  - 2022
+AB  - NA
+SP  - 116507
+EP  - 116507
+JF  - Journal of environmental management
+VL  - 325
+IS  - Pt A
+PB  - 
+DO  - 10.1016/j.jenvman.2022.116507
+ER  - 
+
+TY  - JOUR
+AU  - Marks, Markus; Qiuhan, Jin; Sturman, Oliver; von Ziegler, Lukas; Kollmorgen, Sepp; von der Behrens, Wolfger; Mante, Valerio; Bohacek, Johannes; Yanik, Mehmet Fatih
+TI  - Deep-learning based identification, tracking, pose estimation, and behavior classification of interacting primates and mice in complex environments.
+PY  - 2022
+AB  - The quantification of behaviors of interest from video data is commonly used to study brain function, the effects of pharmacological interventions, and genetic alterations. Existing approaches lack the capability to analyze the behavior of groups of animals in complex environments. We present a novel deep learning architecture for classifying individual and social animal behavior, even in complex environments directly from raw video frames, while requiring no intervention after initial human supervision. Our behavioral classifier is embedded in a pipeline (SIPEC) that performs segmentation, identification, pose-estimation, and classification of complex behavior, outperforming the state of the art. SIPEC successfully recognizes multiple behaviors of freely moving individual mice as well as socially interacting non-human primates in 3D, using data only from simple mono-vision cameras in home-cage setups.
+SP  - 331
+EP  - 340
+JF  - Nature machine intelligence
+VL  - 4
+IS  - 4
+PB  - 
+DO  - 10.1038/s42256-022-00477-5
+ER  - 
+
+TY  - JOUR
+AU  - Hernández-Arteaga, Enrique; Ågmo, Anders
+TI  - Seminatural environments for rodent behavioral testing: a representative design improving animal welfare and enhancing replicability.
+PY  - 2023
+AB  - The low replicability of scientific studies has become an important issue. One possible cause is low representativeness of the experimental design employed. Already in the 1950's, Egon Brunswick pointed out that experimental setups ideally should be based on a random sample of stimuli from the subjects' natural environment or at least include basic features of that environment. Only experimental designs satisfying this criterion, representative designs in Brunswikian terminology, can produce results generalizable beyond the procedure used and to situations outside the laboratory. Such external validity is crucial in preclinical drug studies, for example, and should be important for replicability in general. Popular experimental setups in rodent research on non-human animals, like the tail suspension test or the Geller-Seifter procedure, do not correspond to contexts likely to be encountered in the animals' habitat. Consequently, results obtained in this kind of procedures can be generalized neither to other procedures nor to contexts outside the laboratory. Furthermore, many traditional procedures are incompatible with current notions of animal welfare. An approximation to the natural social and physical context can be provided in the laboratory, in the form of a seminatural environment. In addition to satisfy the basic demands for a representative design, such environments offer a far higher level of animal welfare than the typical small cages. This perspective article will briefly discuss the basic principles of the generalizability of experimental results, the virtues of representative designs and the coincidence of enhanced scientific quality and animal welfare provided by this kind of design.
+SP  - 1192213
+EP  - NA
+JF  - Frontiers in behavioral neuroscience
+VL  - 17
+IS  - NA
+PB  - 
+DO  - 10.3389/fnbeh.2023.1192213
+ER  - 
+
+TY  - JOUR
+AU  - Li, Danyang; Su, Houcheng; Jiang, Kailin; Liu, Dan; Duan, Xuliang
+TI  - Fish Face Identification Based on Rotated Object Detection: Dataset and Exploration
+PY  - 2022
+AB  - <jats:p>At present, fish farming still uses manual identification methods. With the rapid development of deep learning, the application of computer vision in agriculture and farming to achieve agricultural intelligence has become a current research hotspot. We explored the use of facial recognition in fish. We collected and produced a fish identification dataset with 3412 images and a fish object detection dataset with 2320 images. A rotating box is proposed to detect fish, which avoids the problem where the traditional object detection produces a large number of redundant regions and affects the recognition accuracy. A self-SE module and a fish face recognition network (FFRNet) are proposed to implement the fish face identification task. The experiments proved that our model has an accuracy rate of over 90% and an FPS of 200.</jats:p>
+SP  - 219
+EP  - 219
+JF  - Fishes
+VL  - 7
+IS  - 5
+PB  - 
+DO  - 10.3390/fishes7050219
+ER  - 
+
+TY  - NA
+AU  - Mimura, Koki; Matsumoto, Jumpei; Mochihashi, Daichi; Nakamura, Tomoaki; Hirabayashi, Toshiyuki; Higuchi, Makoto; Minamimoto, Takafumi
+TI  - Unsupervised decomposition of natural monkey behavior into a sequence of motion motifs
+PY  - 2023
+AB  - <jats:p>Nonhuman primates (NHPs) exhibit complex and diverse behavior that typifies advanced cognitive function and social communication, but quantitative and systematical measure of this natural nonverbal processing has been a technical challenge. Specifically, a method is required to automatically segment time series of behavior into elemental motion motifs, much like finding meaningful words in character strings. Here, we propose a solution called SyntacticMotionParser (SMP), a general-purpose unsupervised behavior parsing algorithm using a non-parametric Bayesian model. Using three-dimensional posture-tracking data from NHPs, SMP automatically outputs an optimized sequence of latent motion motifs classified into the most likely number of states. When applied to behavioral datasets from common marmosets and rhesus monkeys, SMP outperformed conventional posture-clustering models and detected a set of behavioral ethograms from publicly available data. SMP also quantified and visualized the behavioral effects of chemogenetic neural manipulations. SMP thus has the potential to dramatically improve our understanding of natural NHP behavior in a variety of contexts.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.03.04.531044
+ER  - 
+
+TY  - NA
+AU  - Phaniraj, Nikhil; Joshi, Sanjana; Trimbake, Pradeepkumar; Pujari, Aditya; Ramadurai, Samyuktha; Kalra, Shikha; Ratnaparkhi, Nikhil; Rajan, Raghav
+TI  - CineFinch: An animated female zebra finch for studying courtship interactions
+PY  - 2022
+AB  - <jats:title>ABSTRACT</jats:title><jats:p>Dummies, videos and computer animations have been used extensively in animal behaviour to study simple social interactions. These methods allow complete control of one interacting animal, making it possible to test hypotheses about the significance and relevance of different elements of animal displays. Recent studies have demonstrated the potential of videos and interactive displays for studying more complex courtship interactions in the zebra finch, a well-studied songbird. Here, we extended these techniques by developing an animated female zebra finch and showed that ~40% of male zebra finches (n=5/12) sing to this animation. To study real-time social interactions, we developed two possible methods for closed loop control of animations; (1) an arduino based system to initiate videos/animations based on perch hops and (2) a video game engine based system to change animations. Overall, our results provide an important tool for understanding the dynamics of complex social interactions during courtship.</jats:p><jats:sec><jats:title>SUMMARY STATEMENT</jats:title><jats:p>We develop and test an animation of a female zebra finch to study song and courtship interactions in the male zebra finch.</jats:p></jats:sec>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2022.11.02.514933
+ER  - 
+
+TY  - NA
+AU  - Biderman, Dan; Whiteway, Matthew R; Hurwitz, Cole; Greenspan, Nicholas; Lee, Robert S; Vishnubhotla, Ankit; Warren, Richard; Pedraja, Federico; Noone, Dillon; Schartner, Michael; Huntenburg, Julia M; Khanal, Anup; Meijer, Guido T; Noel, Jean-Paul; Pan-Vazquez, Alejandro; Socha, Karolina Z; Urai, Anne E; NA, NA; Cunningham, John P; Sawtell, Nathaniel; Paninski, Liam
+TI  - Lightning Pose: improved animal pose estimation via semi-supervised learning, Bayesian ensembling, and cloud-native open-source tools.
+PY  - 2023
+AB  - Pose estimation algorithms are shedding new light on animal behavior and intelligence. Most existing models are only trained with labeled frames (supervised learning). Although effective in many cases, the fully supervised approach requires extensive image labeling, struggles to generalize to new videos, and produces noisy outputs that hinder downstream analyses. We address each of these limitations with a semi-supervised approach that leverages the spatiotemporal statistics of unlabeled videos in two different ways. First, we introduce unsupervised training objectives that penalize the network whenever its predictions violate smoothness of physical motion, multiple-view geometry, or depart from a low-dimensional subspace of plausible body configurations. Second, we design a new network architecture that predicts pose for a given frame using temporal context from surrounding unlabeled frames. These context frames help resolve brief occlusions or ambiguities between nearby and similar-looking body parts. The resulting pose estimation networks achieve better performance with fewer labels, generalize better to unseen videos, and provide smoother and more reliable pose trajectories for downstream analysis; for example, these improved pose trajectories exhibit stronger correlations with neural activity. We also propose a Bayesian post-processing approach based on deep ensembling and Kalman smoothing that further improves tracking accuracy and robustness. We release a deep learning package that adheres to industry best practices, supporting easy model development and accelerated training and prediction. Our package is accompanied by a cloud application that allows users to annotate data, train networks, and predict new videos at scale, directly from the browser.
+SP  - NA
+EP  - NA
+JF  - bioRxiv : the preprint server for biology
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.04.28.538703
+ER  - 
+
+TY  - JOUR
+AU  - Mazzucato, Luca
+TI  - Neural mechanisms underlying the temporal organization of naturalistic animal behavior.
+PY  - 2022
+AB  - Naturalistic animal behavior exhibits a strikingly complex organization in the temporal domain, with variability arising from at least three sources: hierarchical, contextual, and stochastic. What neural mechanisms and computational principles underlie such intricate temporal features? In this review, we provide a critical assessment of the existing behavioral and neurophysiological evidence for these sources of temporal variability in naturalistic behavior. Recent research converges on an emergent mechanistic theory of temporal variability based on attractor neural networks and metastable dynamics, arising via coordinated interactions between mesoscopic neural circuits. We highlight the crucial role played by structural heterogeneities as well as noise from mesoscopic feedback loops in regulating flexible behavior. We assess the shortcomings and missing links in the current theoretical and experimental literature and propose new directions of investigation to fill these gaps.
+SP  - NA
+EP  - NA
+JF  - eLife
+VL  - 11
+IS  - NA
+PB  - 
+DO  - 10.7554/elife.76577
+ER  - 
+
+TY  - JOUR
+AU  - Sakamoto, Naoaki; Miyazaki, Yusuke; Kobayashi, Koji; Minato, Takashi; Murata, Takahisa
+TI  - The development of methods to evaluate experimental animal behavior using images
+PY  - 2023
+AB  - In life science and medicine, we have been conducting research using laboratory animals such as mice, rats and monkeys. However, it is impossible for humans to fully understand the feelings and conditions of experimental animals with whom we cannot communicate. In particular, investigators have recently focused on brain function and have created animal models to mimic human depression, pain, and dementia through behavioral tests such as tail suspension and mazes. These methods allow for some evaluation of the animal's condition. However, we cannot detect trivial behavioral changes that reflect the state of mind and body of the animals reproducibly and objectively. With improvements in imaging and information processing technology, it is now possible to photograph animals for extended periods of time and perform sophisticated analysis. Artificial intelligence (AI) can also perform learning and inference, or intelligent work (machine learning), for extended periods of time by processing higher levels of information and can find interpretations that humans are unaware of. To bring innovation to life science research using animals, it is necessary to integrate and utilize these technologies to digitize and extensively and deeply evaluate biological information and emotions of experimental animals. We have been developing some basic technologies for experimental animals by applying image analysis technology, AI, and mathematical analysis. In this review, we introduce the technologies we have developed, including the latest reports.
+SP  - 182
+EP  - 186
+JF  - Nihon yakurigaku zasshi. Folia pharmacologica Japonica
+VL  - 158
+IS  - 2
+PB  - 
+DO  - 10.1254/fpj.22126
+ER  - 
+
+TY  - JOUR
+AU  - Bondoc-Naumovitz, Karen Grace; Laeverenz-Schlogelhofer, Hannah; Poon, Rebecca N; Boggon, Alexander K; Bentley, Samuel A; Cortese, Dario; Wan, Kirsty Y
+TI  - Methods And Measures for Investigating Microscale Motility.
+PY  - 2023
+AB  - Motility is an essential factor for an organism's survival and diversification. With the advent of novel single-cell technologies, analytical frameworks and theoretical methods, we can begin to probe the complex lives of microscopic motile organisms and answer the intertwining biological and physical questions of how these diverse lifeforms navigate their surroundings. Herein, we summarize the main mechanisms of microscale motility and give an overview of different experimental, analytical, and mathematical methods used to study them across different scales encompassing the molecular-, individual- to population-level. We identify transferable techniques, pressing challenges, and future directions in the field. This review can serve as a starting point for researchers who are interested in exploring and quantifying the movements of organisms in the microscale world.
+SP  - NA
+EP  - NA
+JF  - Integrative and comparative biology
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1093/icb/icad075
+ER  - 
+
+TY  - JOUR
+AU  - Ipek, Nusret; Van Damme, Liesbeth G. W.; Tuyttens, Frank A. M.; Verwaeren, Jan
+TI  - Quantifying agonistic interactions between group-housed animals to derive social hierarchies using computer vision: a case study with commercially group-housed rabbits
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>In recent years, computer vision has contributed significantly to the study of farm animal behavior. In complex environments such as commercial farms, however, the automated detection of social behavior and specific interactions between animals can be improved. The present study addresses the automated detection of agonistic interactions between caged animals in a complex environment, relying solely on computer vision. An automated pipeline including group-level temporal action segmentation, object detection, object tracking and rule-based action classification for the detection of agonistic interactions was developed and extensively validated at a level unique in the field. Comparing with observations made by human observers, our pipeline reaches 77% precision and 85% recall using a 5-min tolerance interval for the detection of agonistic interactions. Results obtained using this pipeline allow to construct time-dependent socio-matrices of a group of animals and derive metrics on the dominance hierarchy in a semi-automated manner. Group-housed breeding rabbits (does) with their litters in commercial farms are the main use-case in this work, but the idea is probably also applicable to other social farm animals.</jats:p>
+SP  - NA
+EP  - NA
+JF  - Scientific Reports
+VL  - 13
+IS  - 1
+PB  - 
+DO  - 10.1038/s41598-023-41104-6
+ER  - 
+
+TY  - JOUR
+AU  - Yovel, Yossi; Rechavi, Oded
+TI  - AI and the Doctor Dolittle challenge.
+PY  - 2023
+AB  - Talking to animals is a fundamental human desire. The emergence of powerful AI algorithms, and specifically Large Language Models, has driven many to suggest that we are on the verge of fulfilling this wish. A few large scientific consortia have been formed around this topic and several commercial entities even offer such services. We frame the task of communicating with animals as 'The Doctor Dolittle challenge' and identify three main obstacles on the route to doing so. First, although generative AI models can create novel animal communication samples, it is very difficult to determine their context, and we will forever be biased by our human umwelt when doing so. Second, using AI to extract context in an unsupervised manner must be validated through controlled experiments aiming to measure the animals' response. This is difficult, and moreover, AI algorithms tend to cling on to any available information and are thus prone to finding spurious correlations. And third, animal communication focuses on a restricted set of contexts, such as alarm and courtship, highly limiting our ability to communicate regarding other contexts. Nevertheless, using the tremendous power of novel AI methods to decipher and mimic animal communication is both fascinating and important. We thus define the criteria for passing the Doctor Dolittle challenge and call upon scientists to take on the mission.
+SP  - R783
+EP  - R787
+JF  - Current biology : CB
+VL  - 33
+IS  - 15
+PB  - 
+DO  - 10.1016/j.cub.2023.06.063
+ER  - 
+
+TY  - JOUR
+AU  - Bühler, Daniel; Power Guerra, Nicole; Müller, Luisa; Wolkenhauer, Olaf; Düffer, Martin; Vollmar, Brigitte; Kuhla, Angela; Wolfien, Markus
+TI  - Leptin deficiency-caused behavioral change - A comparative analysis using EthoVision and DeepLabCut.
+PY  - 2023
+AB  - <AbstractText Label="Introduction" NlmCategory="UNASSIGNED">Obese rodents e.g., the leptin-deficient (ob/ob) mouse exhibit remarkable behavioral changes and are therefore ideal models for evaluating mental disorders resulting from obesity. In doing so, female as well as male ob/ob mice at 8, 24, and 40 weeks of age underwent two common behavioral tests, namely the Open Field test and Elevated Plus Maze, to investigate behavioral alteration in a sex- and age dependent manner. The accuracy of these tests is often dependent on the observer that can subjectively influence the data.</AbstractText> <AbstractText Label="Methods" NlmCategory="UNASSIGNED">To avoid this bias, mice were tracked with a video system. Video files were further analyzed by the compared use of two software, namely EthoVision (EV) and DeepLabCut (DLC). In DLC a Deep Learning application forms the basis for using artificial intelligence in behavioral research in the future, also with regard to the reduction of animal numbers.</AbstractText> <AbstractText Label="Results" NlmCategory="UNASSIGNED">After no sex and partly also no age-related differences were found, comparison revealed that both software lead to almost identical results and are therefore similar in their basic outcomes, especially in the determination of velocity and total distance movement. Moreover, we observed additional benefits of DLC compared to EV as it enabled the interpretation of more complex behavior, such as rearing and leaning, in an automated manner.</AbstractText> <AbstractText Label="Discussion" NlmCategory="UNASSIGNED">Based on the comparable results from both software, our study can serve as a starting point for investigating behavioral alterations in preclinical studies of obesity by using DLC to optimize and probably to predict behavioral observations in the future.</AbstractText> <CopyrightInformation>Copyright © 2023 Bühler, Power Guerra, Müller, Wolkenhauer, Düffer, Vollmar, Kuhla and Wolfien.</CopyrightInformation>
+SP  - 1052079
+EP  - NA
+JF  - Frontiers in neuroscience
+VL  - 17
+IS  - NA
+PB  - 
+DO  - 10.3389/fnins.2023.1052079
+ER  - 
+
+TY  - JOUR
+AU  - Van Dam, Elsbeth A; Noldus, Lucas P J J; Van Gerven, Marcel A J
+TI  - Disentangling rodent behaviors to improve automated behavior recognition.
+PY  - 2023
+AB  - Automated observation and analysis of behavior is important to facilitate progress in many fields of science. Recent developments in deep learning have enabled progress in object detection and tracking, but rodent behavior recognition struggles to exceed 75-80% accuracy for ethologically relevant behaviors. We investigate the main reasons why and distinguish three aspects of behavior dynamics that are difficult to automate. We isolate these aspects in an artificial dataset and reproduce effects with the state-of-the-art behavior recognition models. Having an endless amount of labeled training data with minimal input noise and representative dynamics will enable research to optimize behavior recognition architectures and get closer to human-like recognition performance for behaviors with challenging dynamics.
+SP  - 1198209
+EP  - NA
+JF  - Frontiers in neuroscience
+VL  - 17
+IS  - NA
+PB  - 
+DO  - 10.3389/fnins.2023.1198209
+ER  - 
+
+TY  - NA
+AU  - Kahnau, Pia; Mieske, Paul; Wilzopolski, Jenny; Kalliokoski, Otto; Mandillo, Silvia; Hölter, Sabine M.; Voikar, Vootele; Amfim, Adriana; Badurek, Sylvia; Bartelik, Aleksandra; Caruso, Angela; Čater, Maša; Ey, Elodie; Golini, Elisabetta; Jaap, Anne; Hrncic, Dragan; Kiryk, Anna; Lang, Benjamin; Loncarevic-Vasiljkovic, Natasa; Meziane, Hamid; Radzevičienė, Aurelija; Rivalan, Marion; Scattoni, Maria Luisa; Torquet, Nicolas; Trifkovic, Julijana; Ulfhake, Brun; Thöne-Reineke, Christa; Diederich, Kai; Lewejohann, Lars; Hohlbaum, Katharina
+TI  - Development and Application of Home Cage Monitoring in Laboratory Mice and Rats: a Systematic Review
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Traditionally, in biomedical animal research, laboratory rodents are individually examined in test apparatuses outside their home cages at selected time points. However, the outcome of such tests can be influenced by the novel environment, the time of day, separation from the social group, or the presence of an experimenter. Moreover, valuable information may be missed when the animals are only monitored in short periods. These issues can be overcome by longitudinal monitoring mice and rats in their home cages. To shed light on the development of home cage monitoring (HCM) and the current state of the art, a systematic review was carried out on 521 publications retrieved through PubMed and Web of Science. Both the absolute (∼ ×26) and relative (∼ ×7) number of HCM-related publications increased from 1974 to 2020. In both mice and rats, there was a clear bias towards males and individually housed animals, but during the past decade (2011–2020), an increasing number of studies used both sexes and group housing. More than 70 % of the studies did not involve a disease model, but the percentage of studies using disease models increased since the 2000s. In most studies, animals were kept for short (up to 4 weeks) length periods in the HCM systems; intermediate length periods (4–12 weeks) increased in frequency in the years between 2011 and 2020. Before the 2000s, HCM techniques were predominantly applied for less than 12 hours, while 24-hour measurements have been more frequently since the 2000s. The systematic review demonstrated that manual monitoring is decreasing but still relevant. Until (and including) the 1990s, most techniques were applied manually but have been progressively replaced by automation since the 2000s. Independent of the publication year, the main behavioral parameters measured were locomotor activity, feeding, and social behaviors; the main physiological parameters were heart rate and electrocardiography. External appearance-related parameters were rarely examined in the home cages. Due to technological progress and application of artificial intelligence, more refined and detailed behavioral parameters could be investigated in the home cage in recent times.</jats:p><jats:p>Over the period covered in this study, techniques for HCM of mice and rats has improved considerably. This development is ongoing and further progress and validation of HCM systems will extend the applications to allow for continuous, longitudinal, non-invasive monitoring of an increasing range of parameters in group-housed small rodents in their home cages.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.03.07.531465
+ER  - 
+
+TY  - NA
+AU  - Zhu, Yunlu; Auer, Franziska; Gelnaw, Hannah; Davis, Samantha N; Hamling, Kyla R; May, Christina E; Ahamed, Hassan; Ringstad, Niels; Nagel, Katherine I; Schoppik, David
+TI  - Scalable Apparatus to Measure Posture and Locomotion (SAMPL): a high-throughput solution to study unconstrained vertical behavior in small animals.
+PY  - 2023
+AB  - Balance and movement are impaired in a wide variety of neurological disorders. Recent advances in behavioral monitoring provide unprecedented access to posture and locomotor kinematics, but without the throughput and scalability necessary to screen candidate genes / potential therapeutics. We present a powerful solution: a Scalable Apparatus to Measure Posture and Locomotion (SAMPL). SAMPL includes extensible imaging hardware and low-cost open-source acquisition software with real-time processing. We first demonstrate that SAMPL's hardware and acquisition software can acquire data from from D. melanogaster, C. elegans, and D. rerio as they move vertically. Next, we leverage SAMPL's throughput to rapidly (two weeks) gather a new zebrafish dataset. We use SAMPL's analysis and visualization tools to replicate and extend our current understanding of how zebrafish balance as they navigate through a vertical environment. Next, we discover (1) that key kinematic parameters vary systematically with genetic background, and (2) that such background variation is small relative to the changes that accompany early development. Finally, we simulate SAMPL's ability to resolve differences in posture or vertical navigation as a function of affect size and data gathered -- key data for screens. Taken together, our apparatus, data, and analysis provide a powerful solution for labs using small animals to investigate balance and locomotor disorders at scale. More broadly, SAMPL is both an adaptable resource for labs looking process videographic measures of behavior in real-time, and an exemplar of how to scale hardware to enable the throughput necessary for screening.
+SP  - NA
+EP  - NA
+JF  - bioRxiv : the preprint server for biology
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.01.07.523102
+ER  - 
+
+TY  - JOUR
+AU  - Bueno-Junior, Lezio S; Jones-Tinsley, Carolyn E; Milman, Noah E P; Wickham, Peyton T; Watson, Brendon O; Lim, Miranda M
+TI  - Early-life sleep disruption impairs subtle social behaviours in prairie voles: a pose-estimation study.
+PY  - 2023
+AB  - Early-life sleep disruption (ELSD) has been shown to have long-lasting effects on social behaviour in adult prairie voles (<i>Microtus ochrogaster</i>), including impaired expression of pair bonding during partner preference testing. However, due to the limitations of manual behaviour tracking, the effects of ELSD across the time course of pair bonding have not yet been described, hindering our ability to trace mechanisms. Here, we used pose estimation to track prairie voles during opposite-sex cohabitation, the process leading to pair bonding. Male-female pairs were allowed to interact through a mesh divider in the home cage for 72 h, providing variables of body direction, distance-to-divider and locomotion speed. We found that control males displayed periodic patterns of body orientation towards females during cohabitation. In contrast, ELSD males showed reduced duration and ultradian periodicity of these body orientation behaviours towards females. Furthermore, in both sexes, ELSD altered spatial and temporal patterns of locomotion across the light/dark cycles of the 72 h recordings. This study allows a comprehensive behavioural assessment of the effects of ELSD on later life sociality and highlights subtle prairie vole behaviours. Our findings may shed light on neurodevelopmental disorders featuring sleep disruption and social deficits, such as autism spectrum disorders.
+SP  - 230700
+EP  - NA
+JF  - Royal Society open science
+VL  - 10
+IS  - 7
+PB  - 
+DO  - 10.1098/rsos.230700
+ER  - 
+
+TY  - CHAP
+AU  - Aguilar-Moreno, Marina; Graña, Manuel
+TI  - Computational Ethology: Short Review of Current Sensors and Artificial Intelligence Based Methods
+PY  - 2023
+AB  - Computational Ethology provides automated and precise measurement of animal behavior. Artificial Intelligence (AI) techniques have also introduced the enhanced capabilities to interpret experimental data in order to extract accurate ethograms allowing the comparison of animal models with high discriminative power. In this short review we introduce the most recent software tools that employ AI tools for this endeavor, including the popular deep learning approaches.
+SP  - 17
+EP  - 27
+JF  - Engineering Applications of Neural Networks
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1007/978-3-031-34204-2_2
+ER  - 
+
+TY  - JOUR
+AU  - Zhu, Yunlu; Auer, Franziska; Gelnaw, Hannah; Davis, Samantha N; Hamling, Kyla R; May, Christina E; Ahamed, Hassan; Ringstad, Niels; Nagel, Katherine I; Schoppik, David
+TI  - SAMPL is a high-throughput solution to study unconstrained vertical behavior in small animals.
+PY  - 2023
+AB  - Balance and movement are impaired in many neurological disorders. Recent advances in behavioral monitoring provide unprecedented access to posture and locomotor kinematics but without the throughput and scalability necessary to screen candidate genes/potential therapeutics. Here, we present a scalable apparatus to measure posture and locomotion (SAMPL). SAMPL includes extensible hardware and open-source software with real-time processing and can acquire data from D. melanogaster, C. elegans, and D. rerio as they move vertically. Using SAMPL, we define how zebrafish balance as they navigate vertically and discover small but systematic variations among kinematic parameters between genetic backgrounds. We demonstrate SAMPL's ability to resolve differences in posture and navigation as a function of effect size and data gathered, providing key data for screens. SAMPL is therefore both a tool to model balance and locomotor disorders and an exemplar of how to scale apparatus to support screens.
+SP  - 112573
+EP  - 112573
+JF  - Cell reports
+VL  - 42
+IS  - 6
+PB  - 
+DO  - 10.1016/j.celrep.2023.112573
+ER  - 
+
+TY  - JOUR
+AU  - Luxem, Kevin; Sun, Jennifer J; Bradley, Sean P; Krishnan, Keerthi; Yttri, Eric; Zimmermann, Jan; Pereira, Talmo D; Laubach, Mark
+TI  - Open-source tools for behavioral video analysis: Setup, methods, and best practices.
+PY  - 2023
+AB  - Recently developed methods for video analysis, especially models for pose estimation and behavior classification, are transforming behavioral quantification to be more precise, scalable, and reproducible in fields such as neuroscience and ethology. These tools overcome long-standing limitations of manual scoring of video frames and traditional 'center of mass' tracking algorithms to enable video analysis at scale. The expansion of open-source tools for video acquisition and analysis has led to new experimental approaches to understand behavior. Here, we review currently available open-source tools for video analysis and discuss how to set up these methods for labs new to video recording. We also discuss best practices for developing and using video analysis methods, including community-wide standards and critical needs for the open sharing of datasets and code, more widespread comparisons of video analysis methods, and better documentation for these methods especially for new users. We encourage broader adoption and continued development of these tools, which have tremendous potential for accelerating scientific progress in understanding the brain and behavior.
+SP  - NA
+EP  - NA
+JF  - eLife
+VL  - 12
+IS  - NA
+PB  - 
+DO  - 10.7554/elife.79305
+ER  - 
+
+TY  - NA
+AU  - Schweihoff, Jens F.; Hsu, Alexander I.; Schwarz, Martin K.; Yttri, Eric A.
+TI  - A-SOiD, an active learning platform for expert-guided, data efficient discovery of behavior
+PY  - 2022
+AB  - <jats:title>Abstract</jats:title><jats:p>Behavior identification and quantification techniques have undergone rapid development. To this end, supervised or unsupervised methods are chosen based upon their intrinsic strengths and weaknesses (e.g. user bias, training cost, complexity, action discovery). Here, a new active learning platform, A-SOiD, blends these strengths and in doing so, overcomes several of their inherent drawbacks. A-SOiD iteratively learns user-defined groups with a fraction of the usual training data while attaining expansive classification through directed unsupervised classification. In socially-interacting mice, A-SOiD outperformed standard methods despite requiring 85% less training data. Additionally, it isolated two additional ethologically-distinct mouse interactions via unsupervised classification. Similar performance and efficiency was observed using non-human primate 3D pose data. In both cases, the transparency in A-SOiD’s cluster definitions revealed the defining features of the supervised classification through a game-theoretic approach. To facilitate use, A-SOiD comes as an intuitive, open-source interface for efficient segmentation of user-defined behaviors and discovered subactions.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2022.11.04.515138
+ER  - 
+
+TY  - JOUR
+AU  - Ravindran, Sandeep
+TI  - Five ways deep learning has transformed image analysis.
+PY  - 2022
+AB  - From connectomics to behavioural biology, artificial intelligence is making it faster and easier to extract information from images. From connectomics to behavioural biology, artificial intelligence is making it faster and easier to extract information from images.
+SP  - 864
+EP  - 866
+JF  - Nature
+VL  - 609
+IS  - 7928
+PB  - 
+DO  - 10.1038/d41586-022-02964-6
+ER  - 
+
+TY  - JOUR
+AU  - McCarty, Niko
+TI  - Deep-learning tool tracks interacting animals in real time
+PY  - 2022
+AB  - NA
+SP  - NA
+EP  - NA
+JF  - Spectrum
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.53053/iwuz4231
+ER  - 
+
+TY  - JOUR
+AU  - Klein, Christian J M I; Budiman, Thomas; Homberg, Judith R; Verma, Dilip; Keijer, Jaap; van Schothorst, Evert M
+TI  - Measuring Locomotor Activity and Behavioral Aspects of Rodents Living in the Home-Cage.
+PY  - 2022
+AB  - Automatization and technological advances have led to a larger number of methods and systems to monitor and measure locomotor activity and more specific behavior of a wide variety of animal species in various environmental conditions in laboratory settings. In rodents, the majority of these systems require the animals to be temporarily taken away from their home-cage into separate observation cage environments which requires manual handling and consequently evokes distress for the animal and may alter behavioral responses. An automated high-throughput approach can overcome this problem. Therefore, this review describes existing automated methods and technologies which enable the measurement of locomotor activity and behavioral aspects of rodents in their most meaningful and stress-free laboratory environment: the home-cage. In line with the Directive 2010/63/EU and the 3R principles (replacement, reduction, refinement), this review furthermore assesses their suitability and potential for group-housed conditions as a refinement strategy, highlighting their current technological and practical limitations. It covers electrical capacitance technology and radio-frequency identification (RFID), which focus mainly on voluntary locomotor activity in both single and multiple rodents, respectively. Infrared beams and force plates expand the detection beyond locomotor activity toward basic behavioral traits but discover their full potential in individually housed rodents only. Despite the great premises of these approaches in terms of behavioral pattern recognition, more sophisticated methods, such as (RFID-assisted) video tracking technology need to be applied to enable the automated analysis of advanced behavioral aspects of individual animals in social housing conditions.
+SP  - 877323
+EP  - NA
+JF  - Frontiers in behavioral neuroscience
+VL  - 16
+IS  - NA
+PB  - 
+DO  - 10.3389/fnbeh.2022.877323
+ER  - 
+
+TY  - JOUR
+AU  - He, Yichen; Cooney, Christopher R; Maddock, Steve; Thomas, Gavin H
+TI  - Using pose estimation to identify regions and points on natural history specimens.
+PY  - 2023
+AB  - A key challenge in mobilising growing numbers of digitised biological specimens for scientific research is finding high-throughput methods to extract phenotypic measurements on these datasets. In this paper, we test a pose estimation approach based on Deep Learning capable of accurately placing point labels to identify key locations on specimen images. We then apply the approach to two distinct challenges that each requires identification of key features in a 2D image: (i) identifying body region-specific plumage colouration on avian specimens and (ii) measuring morphometric shape variation in Littorina snail shells. For the avian dataset, 95% of images are correctly labelled and colour measurements derived from these predicted points are highly correlated with human-based measurements. For the Littorina dataset, more than 95% of landmarks were accurately placed relative to expert-labelled landmarks and predicted landmarks reliably captured shape variation between two distinct shell ecotypes ('crab' vs 'wave'). Overall, our study shows that pose estimation based on Deep Learning can generate high-quality and high-throughput point-based measurements for digitised image-based biodiversity datasets and could mark a step change in the mobilisation of such data. We also provide general guidelines for using pose estimation methods on large-scale biological datasets.
+SP  - e1010933
+EP  - e1010933
+JF  - PLoS computational biology
+VL  - 19
+IS  - 2
+PB  - 
+DO  - 10.1371/journal.pcbi.1010933
+ER  - 
+
+TY  - NA
+AU  - Yang, Fan; Odashima, Shigeyuki; Masui, Shoichi; Jiang, Shan
+TI  - Hard to Track Objects with Irregular Motions and Similar Appearances? Make It Easier by Buffering the Matching Space
+PY  - 2023
+AB  - We propose a Cascaded Buffered IoU (C-BIoU) tracker to track multiple objects that have irregular motions and indistinguishable appearances. When appearance features are unreliable and geometric features are confused by irregular motions, applying conventional Multiple Object Tracking (MOT) methods may generate unsatisfactory results. To address this issue, our C-BIoU tracker adds buffers to expand the matching space of detections and tracks, which mitigates the effect of irregular motions in two aspects: one is to directly match identical but non-overlapping detections and tracks in adjacent frames, and the other is to compensate for the motion estimation bias in the matching space. In addition, to reduce the risk of overexpansion of the matching space, cascaded matching is employed: first matching alive tracks and detections with a small buffer, and then matching unmatched tracks and detections with a large buffer. Despite its simplicity, our C-BIoU tracker works surprisingly well and achieves state-of-the-art results on MOT datasets that focus on irregular motions and indistinguishable appearances. Moreover, the C-BIoU tracker is the dominant component for our 2 <sup xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">nd</sup> place solution in the CVPR’22 SoccerNet MOT and the ECCV’22 MOTComplex DanceTrack challenges. Finally, we analyze the limitation of our C-BIoU tracker in ablation studies and discuss its application scope.
+SP  - NA
+EP  - NA
+JF  - 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1109/wacv56688.2023.00478
+ER  - 
+
+TY  - JOUR
+AU  - Paton, Sam E J; Solano, José L; Coulombe-Rozon, François; Lebel, Manon; Menard, Caroline
+TI  - Barrier-environment interactions along the gut-brain axis and their influence on cognition and behaviour throughout the lifespan.
+PY  - 2023
+AB  - Environment is known to substantially alter mental state and behaviour across the lifespan. Biological barriers such as the blood-brain barrier (BBB) and gut barrier (GB) are major hubs for communication of environmental information. Alterations in the structural, social and motor environment at different stages of life can influence function of the BBB and GB and their integrity to exert behavioural consequences. Importantly, each of these environmental components is associated with a distinct immune profile, glucocorticoid response and gut microbiome composition, creating unique effects on the BBB and GB. These barrier-environment interactions are sensitive to change throughout life, and positive or negative alterations at critical stages of development can exert long-lasting cognitive and behavioural consequences. Furthermore, because loss of barrier integrity is implicated in pathogenesis of mental disorders, the pathways of environmental influence represent important areas for understanding these diseases. Positive environments can be protective against stress- and age-related damage, raising the possibility of novel pharmacological targets. This review summarizes known mechanisms of environmental influence - such as social interactions, structural complexity and physical exercise - on barrier composition, morphology and development, and considers the outcomes and implications of these interactions in the context of psychiatric disorders.
+SP  - E190
+EP  - E208
+JF  - Journal of psychiatry & neuroscience : JPN
+VL  - 48
+IS  - 3
+PB  - 
+DO  - 10.1503/jpn.220218
+ER  - 
+
+TY  - NA
+AU  - Kim, Soonyoung; Robinson, Jacob T.
+TI  - Phototaxis is a state-dependent behavioral sequence in<i>Hydra vulgaris</i>
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Understanding how internal states like satiety are connected to animal behavior is a fundamental question in neuroscience.<jats:italic>Hydra vulgaris</jats:italic>, a freshwater cnidarian with only eleven neuronal cell types, serves as a tractable model system for studying state-dependent behaviors. We find that starved<jats:italic>Hydra</jats:italic>consistently moves toward light, while fed<jats:italic>Hydra</jats:italic>do not. By modeling this behavior as a set of three sequences - head orientation, jump distance, and jump rate -we demonstrate that the satiety state only affects the rate of the animal jumping to a new position, while the orientation and jump distance are unaffected. These findings yield insights into how internal states in a simple organism,<jats:italic>Hydra</jats:italic>, affect specific elements of a behavior, and offer general principles for studying the relationship between state-dependent behaviors and their underlying molecular mechanisms.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.05.12.540432
+ER  - 
+
+TY  - JOUR
+AU  - Padilla-Coreano, Nancy; Tye, Kay M; Zelikowsky, Moriel
+TI  - Dynamic influences on the neural encoding of social valence.
+PY  - 2022
+AB  - Social signals can serve as potent emotional triggers with powerful impacts on processes from cognition to valence processing. How are social signals dynamically and flexibly associated with positive or negative valence? How do our past social experiences and present social standing shape our motivation to seek or avoid social contact? We discuss a model in which social attributes, social history, social memory, social rank and social isolation can flexibly influence valence assignment to social stimuli, termed here as 'social valence'. We emphasize how the brain encodes each of these four factors and highlight the neural circuits and mechanisms that play a part in the perception of social attributes, social memory and social rank, as well as how these factors affect valence systems associated with social stimuli. We highlight the impact of social isolation, dissecting the neural and behavioural mechanisms that mediate the effects of acute versus prolonged periods of social isolation. Importantly, we discuss conceptual models that may account for the potential shift in valence of social stimuli from positive to negative as the period of isolation extends in time. Collectively, this Review identifies factors that control the formation and attribution of social valence - integrating diverse areas of research and emphasizing their unique contributions to the categorization of social stimuli as positive or negative.
+SP  - 535
+EP  - 550
+JF  - Nature reviews. Neuroscience
+VL  - 23
+IS  - 9
+PB  - 
+DO  - 10.1038/s41583-022-00609-1
+ER  - 
+
+TY  - JOUR
+AU  - Szechtman, Henry; Dvorkin-Gheva, Anna; Gomez-Marin, Alex
+TI  - A virtual library for behavioral performance in standard conditions-rodent spontaneous activity in an open field during repeated testing and after treatment with drugs or brain lesions.
+PY  - 2022
+AB  - <AbstractText Label="BACKGROUND">Beyond their specific experiment, video records of behavior have future value-for example, as inputs for new experiments or for yet unknown types of analysis of behavior-similar to tissue or blood sample banks in life sciences where clinically derived or otherwise well-described experimental samples are stored to be available for some unknown potential future purpose.</AbstractText> <AbstractText Label="FINDINGS">Research using an animal model of obsessive-compulsive disorder employed a standardized paradigm where the behavior of rats in a large open field was video recorded for 55 minutes on each test. From 43 experiments, there are 19,976 such trials that amount to over 2 years of continuous recording. In addition to videos, there are 2 video-derived raw data objects: XY locomotion coordinates and plots of animal trajectory. To motivate future use, the 3 raw data objects are annotated with a general schema-one that abstracts the data records from their particular experiment while providing, at the same time, a detailed list of independent variables bearing on behavioral performance. The raw data objects are deposited as 43 datasets but constitute, functionally, a library containing 1 large dataset.</AbstractText> <AbstractText Label="CONCLUSIONS">Size and annotation schema give the library high reuse potential: in applications using machine learning techniques, statistical evaluation of subtle factors, simulation of new experiments, or as educational resource. Ultimately, the library can serve both as the seed and as the test bed to create a machine-searchable virtual library of linked open datasets for behavioral performance in defined conditions.</AbstractText> <CopyrightInformation>© The Author(s) 2022. Published by Oxford University Press GigaScience.</CopyrightInformation>
+SP  - NA
+EP  - NA
+JF  - GigaScience
+VL  - 11
+IS  - NA
+PB  - 
+DO  - 10.1093/gigascience/giac092
+ER  - 
+
+TY  - JOUR
+AU  - Isik, Sena; Unal, Gunes
+TI  - Open-source software for automated rodent behavioral analysis.
+PY  - 2023
+AB  - Rodent behavioral analysis is a major specialization in experimental psychology and behavioral neuroscience. Rodents display a wide range of species-specific behaviors, not only in their natural habitats but also under behavioral testing in controlled laboratory conditions. Detecting and categorizing these different kinds of behavior in a consistent way is a challenging task. Observing and analyzing rodent behaviors manually limits the reproducibility and replicability of the analyses due to potentially low inter-rater reliability. The advancement and accessibility of object tracking and pose estimation technologies led to several open-source artificial intelligence (AI) tools that utilize various algorithms for rodent behavioral analysis. These software provide high consistency compared to manual methods, and offer more flexibility than commercial systems by allowing custom-purpose modifications for specific research needs. Open-source software reviewed in this paper offer automated or semi-automated methods for detecting and categorizing rodent behaviors by using hand-coded heuristics, machine learning, or neural networks. The underlying algorithms show key differences in their internal dynamics, interfaces, user-friendliness, and the variety of their outputs. This work reviews the algorithms, capability, functionality, features and software properties of open-source behavioral analysis tools, and discusses how this emergent technology facilitates behavioral quantification in rodent research.
+SP  - 1149027
+EP  - NA
+JF  - Frontiers in neuroscience
+VL  - 17
+IS  - NA
+PB  - 
+DO  - 10.3389/fnins.2023.1149027
+ER  - 
+
+TY  - NA
+AU  - Dutta, Abhishek; Pérez-Campanero, Natalia; Taylor, Graham K.; Zisserman, Andrew; Newport, Cait
+TI  - A robust and flexible deep-learning workflow for animal tracking
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Developments in automated animal tracking software are increasing the efficiency of data collection and improving the standardization of behavioural measurements. There are now several open-source tools for tracking laboratory animals, but often these are only accurate under limited conditions (<jats:italic>e</jats:italic>.<jats:italic>g</jats:italic>. uniform lighting and background, uncluttered scenes, unobstructed focal animal). Tracking fish presents a particular challenge for these tools because movement at the water’s surface introduces significant noise. Partial occlusion of the focal animal can also be troublesome, particularly when tracking the whole organism. We conducted a behavioural experiment that required us to track the trajectory of a fish as it swam through a field of obstacles. In addition to measuring the body’s trajectory, we also needed to record the position of the obstacles, and to identify when the fish passed through the ‘virtual gates’ between adjacent obstacles and/or the aquarium wall. We automated data collection by employing a range of computer vision and computational geometry algorithms (<jats:italic>e</jats:italic>.<jats:italic>g</jats:italic>. object detection and tracking, optical flow, parallel plane homology mapping, Voronoi tessellation). Our workflow is divided into several discrete steps, and provides a set of modular software building blocks that can be adapted to analyse other experimental designs. A detailed tutorial is provided, together with all the data and code required to reproduce our results.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.04.20.537633
+ER  - 
+
+TY  - NA
+AU  - Mykins, Michael; Bridges, Benjamin; Jo, Angela; Krishnan, Keerthi
+TI  - Multidimensional analysis of a social behavior identifies regression and phenotypic heterogeneity in a female mouse model for Rett syndrome
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Regression is a key feature of neurodevelopmental disorders such as Autism Spectrum Disorder, Fragile X Syndrome and Rett syndrome (RTT). RTT is caused by mutations in the X-linked gene Methyl CpG-Binding Protein 2 (MECP2). It is characterized by an early period of typical development with subsequent regression of previously acquired motor and speech skills in girls. The syndromic phenotypes are individualistic and dynamic over time. Thus far, it has been difficult to capture these dynamics and syndromic heterogeneity in the preclinical<jats:italic>Mecp2</jats:italic>-heterozygous female mouse model (Het). The emergence of computational neuroethology tools allow for robust analysis of complex and dynamic behaviors to model endophenotypes in pre-clinical models. Towards this first step, we utilized DeepLabCut, a marker-less pose estimation software to quantify trajectory kinematics, and multidimensional analysis to characterize behavioral heterogeneity in Het over trials in the previously benchmarked, ethologically relevant social cognition task of pup retrieval. We report the identification of two distinct phenotypes of adult Het: Het that display a delay in efficiency in early days and then improve over days like wild-type mice, and Het that regress and perform worse in later days. Furthermore, regression is dependent on age, behavioral context, and is identifiable in early days of retrieval. Together, the novel identification of two populations of Het suggest differential effects on neural circuitry and opens new directions of exploration to investigate the underlying molecular and cellular mechanisms, and better design experimental therapeutics.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.06.05.543804
+ER  - 
+
+TY  - JOUR
+AU  - Grijseels, Dori M; Prendergast, Brendan J; Gorman, Julia C; Miller, Cory T
+TI  - The neurobiology of vocal communication in marmosets.
+PY  - 2023
+AB  - An increasingly popular animal model for studying the neural basis of social behavior, cognition, and communication is the common marmoset (Callithrix jacchus). Interest in this New World primate across neuroscience is now being driven by their proclivity for prosociality across their repertoire, high volubility, and rapid development, as well as their amenability to naturalistic testing paradigms and freely moving neural recording and imaging technologies. The complement of these characteristics set marmosets up to be a powerful model of the primate social brain in the years to come. Here, we focus on vocal communication because it is the area that has both made the most progress and illustrates the prodigious potential of this species. We review the current state of the field with a focus on the various brain areas and networks involved in vocal perception and production, comparing the findings from marmosets to other animals, including humans.
+SP  - NA
+EP  - NA
+JF  - Annals of the New York Academy of Sciences
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1111/nyas.15057
+ER  - 
+
+TY  - NA
+AU  - Han, Yaning; Chen, Ke; Wang, Yunke; Liu, Wenhao; Wang, Xiaojing; Liao, Jiahui; Huang, Yiting; Han, Chuanliang; Huang, Kang; Zhang, Jiajia; Cai, Shengyuan; Wang, Zhouwei; Wu, Yongji; Gao, Gao; Wang, Nan; Li, Jinxiu; Song, Yangwangzi; Li, Jing; Wang, Guodong; Wang, Liping; Zhang, Yaping; Wei, Pengfei
+TI  - Social Behavior Atlas: A computational framework for tracking and mapping 3D close interactions of free-moving animals
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>The study of social behaviors in animals is essential for understanding their survival and reproductive strategies. However, accurately tracking and analyzing the social interactions of free-moving animals has remained a challenge. Existing multi-animal pose estimation techniques suffer from drawbacks such as the need for extensive manual annotation and difficulty in discriminating between similar-looking animals in close social interactions. In this paper, we present the Social Behavior Atlas (SBeA), a novel computational framework that solves these challenges by employing a deep learning-based video instance segmentation model, 3D pose reconstruction, and unsupervised dynamic behavioral clustering. SBeA framework also involves a multi-camera setup to prevent occlusion, and a novel approach to identify individual animals in close social interactions. We demonstrate the effectiveness of SBeA in tracking and mapping the 3D close interactions of free-moving animals using the example of genetic mutant mice, birds, and dogs. Our results show that SBeA is capable of identifying subtle social interaction abnormalities, and the models and frameworks developed can be applied to a wide range of animal species. SBeA is a powerful tool for researchers in the fields of neuroscience and ecology to study animal social behaviors with a high degree of accuracy and reliability.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.03.05.531235
+ER  - 
+
+TY  - JOUR
+AU  - Coppola, Claudio Massimo; Strong, James Bradley; O'Reilly, Lissa; Dalesman, Sarah; Akanyeti, Otar
+TI  - Robot Programming from Fish Demonstrations.
+PY  - 2023
+AB  - Fish are capable of learning complex relations found in their surroundings, and harnessing their knowledge may help to improve the autonomy and adaptability of robots. Here, we propose a novel learning from demonstration framework to generate fish-inspired robot control programs with as little human intervention as possible. The framework consists of six core modules: (1) task demonstration, (2) fish tracking, (3) analysis of fish trajectories, (4) acquisition of robot training data, (5) generating a perception-action controller, and (6) performance evaluation. We first describe these modules and highlight the key challenges pertaining to each one. We then present an artificial neural network for automatic fish tracking. The network detected fish successfully in 85% of the frames, and in these frames, its average pose estimation error was less than 0.04 body lengths. We finally demonstrate how the framework works through a case study focusing on a cue-based navigation task. Two low-level perception-action controllers were generated through the framework. Their performance was measured using two-dimensional particle simulations and compared against two benchmark controllers, which were programmed manually by a researcher. The fish-inspired controllers had excellent performance when the robot was started from the initial conditions used in fish demonstrations (>96% success rate), outperforming the benchmark controllers by at least 3%. One of them also had an excellent generalisation performance when the robot was started from random initial conditions covering a wider range of starting positions and heading angles (>98% success rate), again outperforming the benchmark controllers by 12%. The positive results highlight the utility of the framework as a research tool to form biological hypotheses on how fish navigate in complex environments and design better robot controllers on the basis of biological findings.
+SP  - 248
+EP  - 248
+JF  - Biomimetics (Basel, Switzerland)
+VL  - 8
+IS  - 2
+PB  - 
+DO  - 10.3390/biomimetics8020248
+ER  - 
+
+TY  - JOUR
+AU  - Harrison, Charlotte
+TI  - Shared science's time to shine.
+PY  - 2023
+AB  - NA
+SP  - 179
+EP  - 182
+JF  - Lab animal
+VL  - 52
+IS  - 8
+PB  - 
+DO  - 10.1038/s41684-023-01219-9
+ER  - 
+
+TY  - JOUR
+AU  - Gelencsér-Horváth, Anna; Kopácsi, László; Varga, Viktor; Keller, Dávid; Dobolyi, Árpád; Karacs, Kristóf; Lőrincz, András
+TI  - Tracking Highly Similar Rat Instances under Heavy Occlusions: An Unsupervised Deep Generative Pipeline.
+PY  - 2022
+AB  - Identity tracking and instance segmentation are crucial in several areas of biological research. Behavior analysis of individuals in groups of similar animals is a task that emerges frequently in agriculture or pharmaceutical studies, among others. Automated annotation of many hours of surveillance videos can facilitate a large number of biological studies/experiments, which otherwise would not be feasible. Solutions based on machine learning generally perform well in tracking and instance segmentation; however, in the case of identical, unmarked instances (e.g., white rats or mice), even state-of-the-art approaches can frequently fail. We propose a pipeline of deep generative models for identity tracking and instance segmentation of highly similar instances, which, in contrast to most region-based approaches, exploits edge information and consequently helps to resolve ambiguity in heavily occluded cases. Our method is trained by synthetic data generation techniques, not requiring prior human annotation. We show that our approach greatly outperforms other state-of-the-art unsupervised methods in identity tracking and instance segmentation of unmarked rats in real-world laboratory video recordings.
+SP  - 109
+EP  - 109
+JF  - Journal of imaging
+VL  - 8
+IS  - 4
+PB  - 
+DO  - 10.3390/jimaging8040109
+ER  - 
+
+TY  - JOUR
+AU  - Matthews, David G; Dial, Terry R; Lauder, George V
+TI  - Genes, morphology, performance, and fitness: quantifying organismal performance to understand adaptive evolution.
+PY  - 2023
+AB  - To understand the complexities of morphological evolution, we must understand the relationships between genes, morphology, performance, and fitness in complex traits. Genomicists have made tremendous progress in finding the genetic basis of many phenotypes, including a myriad of morphological characters. Similarly, field biologists have greatly advanced our understanding of the relationship between performance and fitness in natural populations. However, the connection from morphology to performance has primarily been studied at the interspecific level, meaning that in most cases we lack a mechanistic understanding of how evolutionarily relevant variation among individuals affects organismal performance. Therefore, functional morphologists need methods that will allow for the analysis of fine-grained intraspecific variation in order to close the path from genes to fitness. We suggest three methodological areas that we believe are well suited for this research program and provide examples of how each can be applied within fish model systems to build our understanding of microevolutionary processes. Specifically, we believe that structural equation modeling, biological robotics, and simultaneous multi-modal functional data acquisition will open up fruitful collaborations among biomechanists, evolutionary biologists, and field biologists. It is only through the combined efforts of all three fields that we will understand the connection between evolution (acting at the level of genes) and natural selection (acting on fitness).
+SP  - NA
+EP  - NA
+JF  - Integrative and comparative biology
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1093/icb/icad096
+ER  - 
+
+TY  - CHAP
+AU  - Rao, Jiyong; Xu, Tianyang; Song, Xiaoning; Feng, Zhen-Hua; Wu, Xiao-Jun
+TI  - KITPose: Keypoint-Interactive Transformer for Animal Pose Estimation
+PY  - 2022
+AB  - NA
+SP  - 660
+EP  - 673
+JF  - Pattern Recognition and Computer Vision
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1007/978-3-031-18907-4_51
+ER  - 
+
+TY  - JOUR
+AU  - McCarty, Niko
+TI  - Six steps to using machine learning for animal behavior research
+PY  - 2022
+AB  - NA
+SP  - NA
+EP  - NA
+JF  - Spectrum
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.53053/dtva2673
+ER  - 
+
+TY  - JOUR
+AU  - Haalck, Lars; Mangan, Michael; Wystrach, Antoine; Clement, Leo; Webb, Barbara; Risse, Benjamin
+TI  - CATER: Combined Animal Tracking & Environment Reconstruction.
+PY  - 2023
+AB  - Quantifying the behavior of small animals traversing long distances in complex environments is one of the most difficult tracking scenarios for computer vision. Tiny and low-contrast foreground objects have to be localized in cluttered and dynamic scenes as well as trajectories compensated for camera motion and drift in multiple lengthy recordings. We introduce CATER, a novel methodology combining an unsupervised probabilistic detection mechanism with a globally optimized environment reconstruction pipeline enabling precision behavioral quantification in natural environments. Implemented as an easy to use and highly parallelized tool, we show its application to recover fine-scale motion trajectories, registered to a high-resolution image mosaic reconstruction, of naturally foraging desert ants from unconstrained field recordings. By bridging the gap between laboratory and field experiments, we gain previously unknown insights into ant navigation with respect to motivational states, previous experience, and current environments and provide an appearance-agnostic method applicable to study the behavior of a wide range of terrestrial species under realistic conditions.
+SP  - eadg2094
+EP  - NA
+JF  - Science advances
+VL  - 9
+IS  - 16
+PB  - 
+DO  - 10.1126/sciadv.adg2094
+ER  - 
+
+TY  - JOUR
+AU  - Kuo, Jessica Y; Denman, Alexander J; Beacher, Nicholas J; Glanzberg, Joseph T; Zhang, Yan; Li, Yun; Lin, Da-Ting
+TI  - Using deep learning to study emotional behavior in rodent models.
+PY  - 2022
+AB  - Quantifying emotional aspects of animal behavior (e.g., anxiety, social interactions, reward, and stress responses) is a major focus of neuroscience research. Because manual scoring of emotion-related behaviors is time-consuming and subjective, classical methods rely on easily quantified measures such as lever pressing or time spent in different zones of an apparatus (e.g., open vs. closed arms of an elevated plus maze). Recent advancements have made it easier to extract pose information from videos, and multiple approaches for extracting nuanced information about behavioral states from pose estimation data have been proposed. These include supervised, unsupervised, and self-supervised approaches, employing a variety of different model types. Representations of behavioral states derived from these methods can be correlated with recordings of neural activity to increase the scope of connections that can be drawn between the brain and behavior. In this mini review, we will discuss how deep learning techniques can be used in behavioral experiments and how different model architectures and training paradigms influence the type of representation that can be obtained.
+SP  - 1044492
+EP  - NA
+JF  - Frontiers in behavioral neuroscience
+VL  - 16
+IS  - NA
+PB  - 
+DO  - 10.3389/fnbeh.2022.1044492
+ER  - 
+
+TY  - JOUR
+AU  - Wang, Yang; Ren, Jie; Li, Shangbin; Hu, Zhijun; Raj, Raja Soosaimarian Peter
+TI  - Estimation of Human Motion Posture Using Multi-labeling Transfer Learning
+PY  - 2023
+AB  - HIGHLIGHTS This paper addresses the problem that it is difficult to mine and extract the potential features of human motion posture feature vector. The posture compensation function is used to compensate the error part to ensure the accuracy of posture estimation results The posture compensation function is used to correct and compensate the estimation results and improve the reliability of the estimation results.
+SP  - NA
+EP  - NA
+JF  - Brazilian Archives of Biology and Technology
+VL  - 66
+IS  - NA
+PB  - 
+DO  - 10.1590/1678-4324-2023220748
+ER  - 
+
+TY  - JOUR
+AU  - Couzin, Iain D; Heins, Conor
+TI  - Emerging technologies for behavioral research in changing environments.
+PY  - 2022
+AB  - The first response exhibited by animals to changing environments is typically behavioral. Behavior is thus central to predicting, and mitigating, the impacts that natural and anthropogenic environmental changes will have on populations and, consequently, ecosystems. Yet the inherently multiscale nature of behavior, as well as the complexities associated with inferring how animals perceive their world, and make decisions, has constrained the scope of behavioral research. Major technological advances in electronics and in machine learning, however, provide increasingly powerful means to see, analyze, and interpret behavior in its natural complexity. We argue that these disruptive technologies will foster new approaches that will allow us to move beyond quantitative descriptions and reveal the underlying generative processes that give rise to behavior.
+SP  - 346
+EP  - 354
+JF  - Trends in ecology & evolution
+VL  - 38
+IS  - 4
+PB  - 
+DO  - 10.1016/j.tree.2022.11.008
+ER  - 
+
+TY  - JOUR
+AU  - Besson, Marc; Alison, Jamie; Bjerge, Kim; Gorochowski, Thomas E; Høye, Toke T; Jucker, Tommaso; Mann, Hjalte M R; Clements, Christopher F
+TI  - Towards the fully automated monitoring of ecological communities.
+PY  - 2022
+AB  - High-resolution monitoring is fundamental to understand ecosystems dynamics in an era of global change and biodiversity declines. While real-time and automated monitoring of abiotic components has been possible for some time, monitoring biotic components-for example, individual behaviours and traits, and species abundance and distribution-is far more challenging. Recent technological advancements offer potential solutions to achieve this through: (i) increasingly affordable high-throughput recording hardware, which can collect rich multidimensional data, and (ii) increasingly accessible artificial intelligence approaches, which can extract ecological knowledge from large datasets. However, automating the monitoring of facets of ecological communities via such technologies has primarily been achieved at low spatiotemporal resolutions within limited steps of the monitoring workflow. Here, we review existing technologies for data recording and processing that enable automated monitoring of ecological communities. We then present novel frameworks that combine such technologies, forming fully automated pipelines to detect, track, classify and count multiple species, and record behavioural and morphological traits, at resolutions which have previously been impossible to achieve. Based on these rapidly developing technologies, we illustrate a solution to one of the greatest challenges in ecology: the ability to rapidly generate high-resolution, multidimensional and standardised data across complex ecologies.
+SP  - 2753
+EP  - 2775
+JF  - Ecology letters
+VL  - 25
+IS  - 12
+PB  - 
+DO  - 10.1111/ele.14123
+ER  - 
+
+TY  - JOUR
+AU  - Agezo, Sena; Berman, Gordon J
+TI  - Tracking together: estimating social poses.
+PY  - 2022
+AB  - NA
+SP  - 410
+EP  - 411
+JF  - Nature methods
+VL  - 19
+IS  - 4
+PB  - 
+DO  - 10.1038/s41592-022-01452-z
+ER  - 
+
+TY  - JOUR
+AU  - Matsumoto, Jumpei; Kanno, Kouta; Kato, Masahiro; Nishimaru, Hiroshi; Setogawa, Tsuyoshi; Chinzorig, Choijiljav; Shibata, Tomohiro; Nishijo, Hisao
+TI  - Acoustic camera system for measuring ultrasound communication in mice.
+PY  - 2022
+AB  - To investigate biological mechanisms underlying social behaviors and their deficits, social communication via ultrasonic vocalizations (USVs) in mice has received considerable attention as a powerful experimental model. The advances in sound localization technology have facilitated the analysis of vocal interactions between multiple mice. However, existing sound localization systems are built around distributed-microphone arrays, which require a special recording arena and long processing time. Here, we report a novel acoustic camera system, USVCAM, which enables simpler and faster USV localization and assignment. The system comprises recently developed USV segmentation algorithms with a modification for overlapping vocalizations that results in high accuracy. Using USVCAM, we analyzed USV communications in a conventional home cage, and demonstrated novel vocal interactions in female ICR mice under a resident-intruder paradigm. The extended applicability and usability of USVCAM may facilitate future studies investigating typical and atypical vocal communication and social behaviors, as well as the underlying mechanisms.
+SP  - 104812
+EP  - 104812
+JF  - iScience
+VL  - 25
+IS  - 8
+PB  - 
+DO  - 10.1016/j.isci.2022.104812
+ER  - 
+
+TY  - JOUR
+AU  - Di Santo, Valentina
+TI  - EcoPhysioMechanics: Integrating energetics and biomechanics to understand fish locomotion under climate change.
+PY  - 2022
+AB  - Ecological physiologists and biomechanists have been broadly investigating swimming performance in a diversity of fishes, however the connection between form, function and energetics of locomotion has been rarely evaluated in the same system and under climate change scenarios. In this perspective I argue that working within the framework of 'EcoPhysioMechanics', i.e., integrating energetics and biomechanics tools, to measure locomotor performance and behavior under different abiotic factors, improves our understanding of the mechanisms, limits and costs of movement. To demonstrate how ecophysiomechanics can be applied to locomotor studies, I outline how linking biomechanics and physiology allows us to understand how fishes may modulate their movement to achieve high speeds or reduce the costs of locomotion. I also discuss how the framework is necessary to quantify swimming capacity under climate change scenarios. Finally, I discuss current dearth of integrative studies and gaps in empirical datasets that are necessary to understand fish swimming under changing environments.
+SP  - 711
+EP  - 720
+JF  - Integrative and comparative biology
+VL  - 62
+IS  - 3
+PB  - 
+DO  - 10.1093/icb/icac095
+ER  - 
+
+TY  - JOUR
+AU  - Xiao, Shiting; Wang, Yufu; Perkes, Ammon; Pfrommer, Bernd; Schmidt, Marc; Daniilidis, Kostas; Badger, Marc
+TI  - Multi-view Tracking, Re-ID, and Social Network Analysis of a Flock of Visually Similar Birds in an Outdoor Aviary
+PY  - 2023
+AB  - The ability to capture detailed interactions among individuals in a social group is foundational to our study of animal behavior and neuroscience. Recent advances in deep learning and computer vision are driving rapid progress in methods that can record the actions and interactions of multiple individuals simultaneously. Many social species, such as birds, however, live deeply embedded in a three-dimensional world. This world introduces additional perceptual challenges such as occlusions, orientation-dependent appearance, large variation in apparent size, and poor sensor coverage for 3D reconstruction, that are not encountered by applications studying animals that move and interact only on 2D planes. Here we introduce a system for studying the behavioral dynamics of a group of songbirds as they move throughout a 3D aviary. We study the complexities that arise when tracking a group of closely interacting animals in three dimensions and introduce a novel dataset for evaluating multi-view trackers. Finally, we analyze captured ethogram data and demonstrate that social context affects the distribution of sequential interactions between birds in the aviary.
+SP  - 1532
+EP  - 1549
+JF  - International Journal of Computer Vision
+VL  - 131
+IS  - 6
+PB  - 
+DO  - 10.1007/s11263-023-01768-z
+ER  - 
+
+TY  - JOUR
+AU  - Fong, Tony; Hu, Hao; Gupta, Pankaj; Jury, Braeden; Murphy, Timothy H
+TI  - PyMouseTracks: Flexible Computer Vision and RFID-Based System for Multiple Mouse Tracking and Behavioral Assessment.
+PY  - 2023
+AB  - PyMouseTracks (PMT) is a scalable and customizable computer vision and radio frequency identification (RFID)-based system for multiple rodent tracking and behavior assessment that can be set up within minutes in any user-defined arena at minimal cost. PMT is composed of the online Raspberry Pi (RPi)-based video and RFID acquisition with subsequent offline analysis tools. The system is capable of tracking up to six mice in experiments ranging from minutes to days. PMT maintained a minimum of 88% detections tracked with an overall accuracy >85% when compared with manual validation of videos containing one to four mice in a modified home-cage. As expected, chronic recording in home-cage revealed diurnal activity patterns. In open-field, it was observed that novel noncagemate mouse pairs exhibit more similarity in travel trajectory patterns than cagemate pairs over a 10-min period. Therefore, shared features within travel trajectories between animals may be a measure of sociability that has not been previously reported. Moreover, PMT can interface with open-source packages such as DeepLabCut and Traja for pose estimation and travel trajectory analysis, respectively. In combination with Traja, PMT resolved motor deficits exhibited in stroke animals. Overall, we present an affordable, open-sourced, and customizable/scalable mouse behavior recording and analysis system.
+SP  - ENEURO.0127
+EP  - 22.2023
+JF  - eNeuro
+VL  - 10
+IS  - 5
+PB  - 
+DO  - 10.1523/eneuro.0127-22.2023
+ER  - 
+
+TY  - JOUR
+AU  - Ebrahimi, Aghileh S; Orlowska-Feuer, Patrycja; Huang, Qian; Zippo, Antonio G; Martial, Franck P; Petersen, Rasmus S; Storchi, Riccardo
+TI  - Three-dimensional unsupervised probabilistic pose reconstruction (3D-UPPER) for freely moving animals.
+PY  - 2023
+AB  - A key step in understanding animal behaviour relies in the ability to quantify poses and movements. Methods to track body landmarks in 2D have made great progress over the last few years but accurate 3D reconstruction of freely moving animals still represents a challenge. To address this challenge here we develop the 3D-UPPER algorithm, which is fully automated, requires no a priori knowledge of the properties of the body and can also be applied to 2D data. We find that 3D-UPPER reduces by [Formula: see text] fold the error in 3D reconstruction of mouse body during freely moving behaviour compared with the traditional triangulation of 2D data. To achieve that, 3D-UPPER performs an unsupervised estimation of a Statistical Shape Model (SSM) and uses this model to constrain the viable 3D coordinates. We show, by using simulated data, that our SSM estimator is robust even in datasets containing up to 50% of poses with outliers and/or missing data. In simulated and real data SSM estimation converges rapidly, capturing behaviourally relevant changes in body shape associated with exploratory behaviours (e.g. with rearing and changes in body orientation). Altogether 3D-UPPER represents a simple tool to minimise errors in 3D reconstruction while capturing meaningful behavioural parameters.
+SP  - 155
+EP  - NA
+JF  - Scientific reports
+VL  - 13
+IS  - 1
+PB  - 
+DO  - 10.1038/s41598-022-25087-4
+ER  - 
+
+TY  - NA
+AU  - Bueno-Junior, Lezio S.; Jones-Tinsley, Carolyn E.; Wickham, Peyton T.; Watson, Brendon O.; Lim, Miranda M.
+TI  - Early-life sleep disruption impairs subtle social behaviors during pair bond formation in prairie voles: A computer vision study
+PY  - 2022
+AB  - <jats:p>Early life sleep disruption (ELSD) has been shown to have long lasting effects on social behavior in adult prairie voles (<jats:italic>Microtus ochrogaster</jats:italic>), including impaired expression of pair bond behavior during partner preference testing (e.g., reduced huddling with a pair bonded partner). However, due to the limitations of manual behavior tracking, the behavioral effects of ELSD across the entire time course of pair bond formation have not yet been described, hindering our ability to trace mechanisms. Here, we used computer vision to precisely track multiple behaviors during opposite-sex cohabitation of prairie voles. Male-female pairs were allowed to interact through a mesh divider in the home cage for 72 h, providing variables of body direction, distance-to-divider, and locomotion speed, with temporal resolution as high as the video frame rate (20-25 Hz). We found that control males displayed periodic, stereotyped patterns of body orientation towards females during pair bond formation. In contrast, ELSD males showed reduced duration and ultradian periodicity of these body orientation behaviors towards females. Furthermore, in both sexes, ELSD altered stereotypical spatial and temporal patterns of locomotion seen in control animals that typically varied across days of cohabitation and light/dark periods. This study highlights the utility of computer vision in deep characterization of subtle behaviors and allows a more comprehensive behavioral assessment of the profound and persistent effects of ELSD on later life social behavior. Our findings may shed light on causal mechanisms underlying human neurodevelopmental disorders featuring sleep disruption and social deficits, such as autism spectrum disorder.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2022.10.12.511931
+ER  - 
+
+TY  - JOUR
+AU  - Ehlman, Sean M; Scherer, Ulrike; Bierbach, David; Francisco, Fritz; Laskowski, Kate L; Krause, Jens; Wolf, Max
+TI  - Leveraging big data to uncover the eco-evolutionary factors shaping behavioural development.
+PY  - 2023
+AB  - Mapping the eco-evolutionary factors shaping the development of animals' behavioural phenotypes remains a great challenge. Recent advances in 'big behavioural data' research-the high-resolution tracking of individuals and the harnessing of that data with powerful analytical tools-have vastly improved our ability to measure and model developing behavioural phenotypes. Applied to the study of behavioural ontogeny, the unfolding of whole behavioural repertoires can be mapped in unprecedented detail with relative ease. This overcomes long-standing experimental bottlenecks and heralds a surge of studies that more finely define and explore behavioural-experiential trajectories across development. In this review, we first provide a brief guide to state-of-the-art approaches that allow the collection and analysis of high-resolution behavioural data across development. We then outline how such approaches can be used to address key issues regarding the ecological and evolutionary factors shaping behavioural development: developmental feedbacks between behaviour and underlying states, early life effects and behavioural transitions, and information integration across development.
+SP  - 20222115
+EP  - NA
+JF  - Proceedings. Biological sciences
+VL  - 290
+IS  - 1992
+PB  - 
+DO  - 10.1098/rspb.2022.2115
+ER  - 
+
+TY  - NA
+AU  - von Ziegler, Lukas M.; Roessler, Fabienne K.; Sturman, Oliver; Waag, Rebecca; Privitera, Mattia; Duss, Sian N; O'Connor, Eoin C.; Bohacek, Johannes
+TI  - Analysis of behavioral flow resolves latent phenotypes
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>The nuanced detection of rodent behavior in preclinical biomedical research is essential for understanding disease conditions, genetic phenotypes, and internal states. Recent advances in machine vision and artificial intelligence have popularized data-driven methods that segment complex animal behavior into clusters of behavioral motifs. However, despite the rapid progress, several challenges remain: Statistical power typically decreases due to multiple testing correction, poor transferability of clustering approaches across experiments limits practical applications, and individual differences in behavior are not considered. Here, we introduce “behavioral flow analysis” (BFA), which creates a single metric for all observed transitions between behavioral motifs. Then, we establish a “classifier-in-the-middle” approach to stabilize clusters and enable transferability of our analyses across datasets. Finally, we combine these approaches with dimensionality reduction techniques, enabling “behavioral flow fingerprinting” (BFF) for individual animal assessment. We validate our approaches across large behavioral datasets with a total of 443 open field recordings that we make publicly available, comparing various stress protocols with pharmacologic and brain-circuit interventions. Our analysis pipeline is compatible with a range of established clustering approaches, it increases statistical power compared to conventional techniques, and has strong reproducibility across experiments within and across laboratories. The efficient individual phenotyping allows us to classify stress-responsiveness and predict future behavior. This approach aligns with animal welfare regulations by reducing animal numbers, and enhancing information extracted from experimental animals</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.07.27.550778
+ER  - 
+
+TY  - JOUR
+AU  - Botton-Amiot, Gaelle; Martinez, Pedro; Sprecher, Simon G
+TI  - Associative learning in the cnidarian Nematostella vectensis.
+PY  - 2023
+AB  - The ability to learn and form memories allows animals to adapt their behavior based on previous experiences. Associative learning, the process through which organisms learn about the relationship between two distinct events, has been extensively studied in various animal taxa. However, the existence of associative learning, prior to the emergence of centralized nervous systems in bilaterian animals, remains unclear. Cnidarians such as sea anemones or jellyfish possess a nerve net, which lacks centralization. As the sister group to bilaterians, they are particularly well suited for studying the evolution of nervous system functions. Here, we probe the capacity of the starlet sea anemone <i>Nematostella vectensis</i> to form associative memories by using a classical conditioning approach. We developed a protocol combining light as the conditioned stimulus with an electric shock as the aversive unconditioned stimulus. After repetitive training, animals exhibited a conditioned response to light alone-indicating that they learned the association. In contrast, all control conditions did not form associative memories. Besides shedding light on an aspect of cnidarian behavior, these results root associative learning before the emergence of NS centralization in the metazoan lineage and raise fundamental questions about the origin and evolution of cognition in brainless animals.
+SP  - e2220685120
+EP  - NA
+JF  - Proceedings of the National Academy of Sciences of the United States of America
+VL  - 120
+IS  - 13
+PB  - 
+DO  - 10.1073/pnas.2220685120
+ER  - 
+
+TY  - JOUR
+AU  - Ipek, Nusret; Van Damme, Liesbeth G W; Tuyttens, Frank A M; Verwaeren, Jan
+TI  - Quantifying agonistic interactions between group-housed animals to derive social hierarchies using computer vision: a case study with commercially group-housed rabbits.
+PY  - 2023
+AB  - In recent years, computer vision has contributed significantly to the study of farm animal behavior. In complex environments such as commercial farms, however, the automated detection of social behavior and specific interactions between animals can be improved. The present study addresses the automated detection of agonistic interactions between caged animals in a complex environment, relying solely on computer vision. An automated pipeline including group-level temporal action segmentation, object detection, object tracking and rule-based action classification for the detection of agonistic interactions was developed and extensively validated at a level unique in the field. Comparing with observations made by human observers, our pipeline reaches 77% precision and 85% recall using a 5-min tolerance interval for the detection of agonistic interactions. Results obtained using this pipeline allow to construct time-dependent socio-matrices of a group of animals and derive metrics on the dominance hierarchy in a semi-automated manner. Group-housed breeding rabbits (does) with their litters in commercial farms are the main use-case in this work, but the idea is probably also applicable to other social farm animals.
+SP  - 14138
+EP  - NA
+JF  - Scientific reports
+VL  - 13
+IS  - 1
+PB  - 
+DO  - NA
+ER  - 
+
+TY  - JOUR
+AU  - Luo, Xun; Cao, Shuo; Wang, Zizheng; Chen, Yiyang
+TI  - LCDA-Net: Efficient Image Dehazing with Contrast-Regularized and Dilated Attention
+PY  - 2023
+AB  - NA
+SP  - NA
+EP  - NA
+JF  - Neural Processing Letters
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1007/s11063-023-11384-0
+ER  - 
+
+TY  - NA
+AU  - Ravan, Aniket; Feng, Ruopei; Gruebele, Martin; Chemla, Yann R.
+TI  - Rapid automated 3-D pose estimation of larval zebrafish using a physical model-trained neural network
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Quantitative ethology requires an accurate estimation of an organism’s postural dynamics in three dimensions plus time. Technological progress over the last decade has made animal pose estimation in challenging scenarios possible with unprecedented detail. Here, we present (i) a fast automated method to record and track the pose of individual larval zebrafish in a 3-D environment, applicable when accurate human labeling is not possible; (ii) a rich annotated dataset of 3-D larval poses for ethologists and the general zebrafish and machine learning community; and (iii) a technique to generate realistic, annotated larval images in novel behavioral contexts. Using a three-camera system calibrated with refraction correction, we record diverse larval swims under free swimming conditions and in response to acoustic and optical stimuli. We then employ a convolutional neural network to estimate 3-D larval poses from video images. The network is trained against a set of synthetic larval images rendered using a 3-D physical model of larvae. This 3-D model samples from a distribution of realistic larval poses that we estimate a priori using a template-based pose estimation of a small number of swim bouts. Our network model, trained without any human annotation, performs larval pose estimation with much higher speed and comparable accuracy to the template-based approach, capturing detailed kinematics of 3-D larval swims.</jats:p><jats:sec><jats:title>Author Summary</jats:title><jats:p>Larval zebrafish swimming has been studied extensively in 2-D environments, which are restrictive compared to natural 3-D habitats. To enable rapid capture of 3-D poses, we collect three orthogonal video projections of swim behaviors in several behavioral settings and fit poses to a physical model. We then use the physical model to generate an auto-annotated stream of synthetic poses to train a convolutional neural network. The network model performs highly accurate pose predictions on over 600 real swim bouts much faster than a physical model fit. Our results show that larvae frequently exhibit motions inaccessible in a 2-D setup. The annotated dataset could be used by ethologists studying larval swimming dynamics, and by the machine learning community interested in multi-dimensional time series and 3-D reconstruction. Using the ability to render images with multiple synthetic poses, our method can be extended to collective behavior.</jats:p></jats:sec>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.01.06.522821
+ER  - 
+
+TY  - JOUR
+AU  - Schulz, Andrew K; Schneider, Nikole; Zhang, Margaret; Singal, Krishma
+TI  - A Year at the Forefront of Hydrostat Motion.
+PY  - 2023
+AB  - Currently, in the field of interdisciplinary work in biology, there has been a significant push by the soft robotic community to understand the motion and maneuverability of hydrostats. This Review seeks to expand the muscular hydrostat hypothesis toward new structures, including plants, and introduce innovative techniques to the hydrostat community on new modeling, simulating, mimicking, and observing hydrostat motion methods. These methods range from ideas of kirigami, origami, and knitting for mimic creation to utilizing reinforcement learning for control of bio-inspired soft robotic systems. It is now being understood through modeling that different mechanisms can inhibit traditional hydrostat motion, such as skin, nostrils, or sheathed layered muscle walls. The impact of this Review will highlight these mechanisms, including asymmetries, and discuss the critical next steps toward understanding their motion and how species with hydrostat structures control such complex motions, highlighting work from January 2022 to December 2022.
+SP  - NA
+EP  - NA
+JF  - Biology open
+VL  - 12
+IS  - 8
+PB  - 
+DO  - 10.1242/bio.059834
+ER  - 
+
+TY  - JOUR
+AU  - Jia, Yinjun; Li, Shuaishuai; Guo, Xuan; Lei, Bo; Hu, Junqiang; Xu, Xiao-Hong; Zhang, Wei
+TI  - Selfee, self-supervised features extraction of animal behaviors.
+PY  - 2022
+AB  - Fast and accurately characterizing animal behaviors is crucial for neuroscience research. Deep learning models are efficiently used in laboratories for behavior analysis. However, it has not been achieved to use an end-to-end unsupervised neural network to extract comprehensive and discriminative features directly from social behavior video frames for annotation and analysis purposes. Here, we report a self-supervised feature extraction (Selfee) convolutional neural network with multiple downstream applications to process video frames of animal behavior in an end-to-end way. Visualization and classification of the extracted features (Meta-representations) validate that Selfee processes animal behaviors in a way similar to human perception. We demonstrate that Meta-representations can be efficiently used to detect anomalous behaviors that are indiscernible to human observation and hint in-depth analysis. Furthermore, time-series analyses of Meta-representations reveal the temporal dynamics of animal behaviors. In conclusion, we present a self-supervised learning approach to extract comprehensive and discriminative features directly from raw video recordings of animal behaviors and demonstrate its potential usage for various downstream applications.
+SP  - NA
+EP  - NA
+JF  - eLife
+VL  - 11
+IS  - NA
+PB  - 
+DO  - 10.7554/elife.76218
+ER  - 
+
+TY  - JOUR
+AU  - Eagan, B H; Eagan, B; Protopopova, A
+TI  - Behaviour Real-Time Spatial Tracking Identification (BeRSTID) used for Cat Behaviour Monitoring in an Animal Shelter.
+PY  - 2022
+AB  - Efficiently tracking animal behaviour in an animal shelter has direct lifesaving applications. Individualized care and early recognition of distress in cats are often missed. However, monitoring behaviour is a challenge as time and financial resources are often limited, and the size and needs of animal populations within shelters are commonly in flux. Our research required a method of behavioural observation that was simple, accessible, used limited human and computer resources and allowed for real-time feedback. Here, we present BeRSTID, an open-source behaviour real-time spatial tracking identification system demonstrated on six cats in an animal shelter using unique 2D fiducial markers. The markers were attached to custom veterinary paper identification collars for feedback on individual animal behaviour over time. Our findings show that BeRSTID correlated closely to human-coded data in both real-time and post-event processing modes of eating and drinking behaviours of cats in naturalistic shelter environments. By building upon a lateral concept of marker tracking for direct applied use in a new context, we present a low-barrier user-friendly solution using common technologies that can track animals for research and, with further development, may help improve welfare in animal care facilities such as shelters. Extensions of BeRSTID may be generalized to track unique subjects in varied environments for multiple use cases.
+SP  - 17585
+EP  - NA
+JF  - Scientific reports
+VL  - 12
+IS  - 1
+PB  - 
+DO  - 10.1038/s41598-022-22167-3
+ER  - 
+
+TY  - NA
+AU  - Cirulli, Francesca; Easton, Alexander
+TI  - Placing behaviour at the forefront of brain science.
+PY  - 2022
+AB  - NA
+SP  - 104861
+EP  - 104861
+JF  - Neuroscience and biobehavioral reviews
+VL  - 142
+IS  - NA
+PB  - 
+DO  - 10.1016/j.neubiorev.2022.104861
+ER  - 
+
+TY  - JOUR
+AU  - Hughes, Laetitia A; Rudler, Danielle L; Siira, Stefan J; McCubbin, Tim; Raven, Samuel A; Browne, Jasmin M; Ermer, Judith A; Rientjes, Jeanette; Rodger, Jennifer; Marcellin, Esteban; Rackham, Oliver; Filipovska, Aleksandra
+TI  - Copy number variation in tRNA isodecoder genes impairs mammalian development and balanced translation.
+PY  - 2023
+AB  - The number of tRNA isodecoders has increased dramatically in mammals, but the specific molecular and physiological reasons for this expansion remain elusive. To address this fundamental question we used CRISPR editing to knockout the seven-membered phenylalanine tRNA gene family in mice, both individually and combinatorially. Using ATAC-Seq, RNA-seq, ribo-profiling and proteomics we observed distinct molecular consequences of single tRNA deletions. We show that tRNA-Phe-1-1 is required for neuronal function and its loss is partially compensated by increased expression of other tRNAs but results in mistranslation. In contrast, the other tRNA-Phe isodecoder genes buffer the loss of each of the remaining six tRNA-Phe genes. In the tRNA-Phe gene family, the expression of at least six tRNA-Phe alleles is required for embryonic viability and tRNA-Phe-1-1 is most important for development and survival. Our results reveal that the multi-copy configuration of tRNA genes is required to buffer translation and viability in mammals.
+SP  - 2210
+EP  - NA
+JF  - Nature communications
+VL  - 14
+IS  - 1
+PB  - 
+DO  - 10.1038/s41467-023-37843-9
+ER  - 
+
+TY  - NA
+AU  - Syeda, Atika; Zhong, Lin; Tung, Renee; Long, Will; Pachitariu, Marius; Stringer, Carsen
+TI  - Facemap: a framework for modeling neural activity based on orofacial tracking
+PY  - 2022
+AB  - <jats:title>Abstract</jats:title><jats:p>Recent studies in mice have shown that orofacial behaviors drive a large fraction of neural activity across the brain. To understand the nature and function of these signals, we need better computational models to characterize the behaviors and relate them to neural activity. Here we developed Facemap, a framework consisting of a keypoint tracking algorithm and a deep neural network encoder for predicting neural activity. We used the Facemap keypoints as input for the deep neural network to predict the activity of ∼50,000 simultaneously-recorded neurons and in visual cortex we doubled the amount of explained variance compared to previous methods. Our keypoint tracking algorithm was more accurate than existing pose estimation tools, while the inference speed was several times faster, making it a powerful tool for closed-loop behavioral experiments. The Facemap tracker was easy to adapt to data from new labs, requiring as few as 10 annotated frames for near-optimal performance. We used Facemap to find that the neuronal activity clusters which were highly driven by behaviors were more spatially spread-out across cortex. We also found that the deep keypoint features inferred by the model had time-asymmetrical state dynamics that were not apparent in the raw keypoint data. In summary, Facemap provides a stepping stone towards understanding the function of the brainwide neural signals and their relation to behavior.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2022.11.03.515121
+ER  - 
+
+TY  - NA
+AU  - Naik, Hemal; Hang Chan, Alex Hoi; Yang, Junran; Delacoux, Mathilde; Couzin, Iain D.; Kano, Fumihiro; Nagy, Máté
+TI  - 3D-POP - An Automated Annotation Approach to Facilitate Markerless 2D-3D Tracking of Freely Moving Birds with Marker-Based Motion Capture
+PY  - 2023
+AB  - NA
+SP  - NA
+EP  - NA
+JF  - 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1109/cvpr52729.2023.02038
+ER  - 
+
+TY  - CHAP
+AU  - Waldmann, Urs; Naik, Hemal; Máté, Nagy; Kano, Fumihiro; Couzin, Iain D.; Deussen, Oliver; Goldlücke, Bastian
+TI  - I-MuPPET: Interactive Multi-Pigeon Pose Estimation and Tracking
+PY  - 2022
+AB  - NA
+SP  - 513
+EP  - 528
+JF  - Lecture Notes in Computer Science
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1007/978-3-031-16788-1_31
+ER  - 
+
+TY  - JOUR
+AU  - Suryanto, Michael Edbert; Saputra, Ferry; Kurnia, Kevin Adi; Vasquez, Ross D; Roldan, Marri Jmelou M; Chen, Kelvin H-C; Huang, Jong-Chin; Hsiao, Chung-Der
+TI  - Using DeepLabCut as a Real-Time and Markerless Tool for Cardiac Physiology Assessment in Zebrafish.
+PY  - 2022
+AB  - DeepLabCut (DLC) is a deep learning-based tool initially invented for markerless pose estimation in mammals. In this study, we explored the possibility of adopting this tool for conducting markerless cardiac physiology assessment in an important aquatic toxicology model of zebrafish (<i>Danio rerio</i>). Initially, high-definition videography was applied to capture heartbeat information at a frame rate of 30 frames per second (fps). Next, 20 videos from different individuals were used to perform convolutional neural network training by labeling the heart chamber (ventricle) with eight landmarks. Using Residual Network (ResNet) 152, a neural network with 152 convolutional neural network layers with 500,000 iterations, we successfully obtained a trained model that can track the heart chamber in a real-time manner. Later, we validated DLC performance with the previously published ImageJ Time Series Analysis (TSA) and Kymograph (KYM) methods. We also evaluated DLC performance by challenging experimental animals with ethanol and ponatinib to induce cardiac abnormality and heartbeat irregularity. The results showed that DLC is more accurate than the TSA method in several parameters tested. The DLC-trained model also detected the ventricle of zebrafish embryos even in the occurrence of heart abnormalities, such as pericardial edema. We believe that this tool is beneficial for research studies, especially for cardiac physiology assessment in zebrafish embryos.
+SP  - 1243
+EP  - 1243
+JF  - Biology
+VL  - 11
+IS  - 8
+PB  - 
+DO  - 10.3390/biology11081243
+ER  - 
+
+TY  - JOUR
+AU  - Rathore, Akanksha; Sharma, Ananth; Shah, Shaan; Sharma, Nitika; Torney, Colin; Guttal, Vishwesha
+TI  - Multi-Object Tracking in Heterogeneous environments (MOTHe) for animal video recordings.
+PY  - 2023
+AB  - Aerial imagery and video recordings of animals are used for many areas of research such as animal behaviour, behavioural neuroscience and field biology. Many automated methods are being developed to extract data from such high-resolution videos. Most of the available tools are developed for videos taken under idealised laboratory conditions. Therefore, the task of animal detection and tracking for videos taken in natural settings remains challenging due to heterogeneous environments. Methods that are useful for field conditions are often difficult to implement and thus remain inaccessible to empirical researchers. To address this gap, we present an open-source package called Multi-Object Tracking in Heterogeneous environments (MOTHe), a Python-based application that uses a basic convolutional neural network for object detection. MOTHe offers a graphical interface to automate the various steps related to animal tracking such as training data generation, animal detection in complex backgrounds and visually tracking animals in the videos. Users can also generate training data and train a new model which can be used for object detection tasks for a completely new dataset. MOTHe doesn't require any sophisticated infrastructure and can be run on basic desktop computing units. We demonstrate MOTHe on six video clips in varying background conditions. These videos are from two species in their natural habitat-wasp colonies on their nests (up to 12 individuals per colony) and antelope herds in four different habitats (up to 156 individuals in a herd). Using MOTHe, we are able to detect and track individuals in all these videos. MOTHe is available as an open-source GitHub repository with a detailed user guide and demonstrations at: https://github.com/tee-lab/MOTHe-GUI.
+SP  - e15573
+EP  - e15573
+JF  - PeerJ
+VL  - 11
+IS  - NA
+PB  - 
+DO  - 10.7717/peerj.15573
+ER  - 
+
+TY  - JOUR
+AU  - Walsh, Jessica J; Christoffel, Daniel J; Malenka, Robert C
+TI  - Neural circuits regulating prosocial behaviors.
+PY  - 2022
+AB  - NA
+SP  - 79
+EP  - 89
+JF  - Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology
+VL  - 48
+IS  - 1
+PB  - 
+DO  - 10.1038/s41386-022-01348-8
+ER  - 
+
+TY  - NA
+AU  - Wu, Xin; Wang, Yonghui; Huang, Jipeng; Wang, Lianming
+TI  - Analysis of body-fin cooperative propulsion mechanism of koi carp using Pose Estimation<sup>⋆</sup>
+PY  - 2022
+AB  - <jats:title>Abstract</jats:title><jats:p>The advancement of science and technology has led to the development of advanced underwater robots, significantly improving human beings’ ability to explore, understand, and preserve the oceans. The study of fish movement holds crucial scientific and practical significance in advancing underwater robotics technology. It can reveal the secret behind the efficient swimming of fish and provide a basis for developing new underwater robots with low noise, high efficiency, high stability, and high mobility. This research establishes a fish body-fin synergistic propulsion model to analyze the synergistic propulsion mechanism of fish bodies and fins. A fish pose and motion estimation platform is constructed to provide data support for the analysis. The platform quantifies a koi’s movement to analyze the fish wave characteristics for different swimming states. The proposed body-fin coordination model explores four koi swimming states (advancing, retreating, turning, and floating up), providing an innovative idea for fish movement research. The research results can significantly help the designing, developing, and optimizing modern underwater robots. The code and dataset for this research are available in<jats:ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://github.com/wux024/AdamPosePlug">https://github.com/wux024/AdamPosePlug</jats:ext-link>.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2022.09.07.507033
+ER  - 
+
+TY  - JOUR
+AU  - Baratta, Annalisa M; Brandner, Adam J; Plasil, Sonja L; Rice, Rachel C; Farris, Sean P
+TI  - Advancements in Genomic and Behavioral Neuroscience Analysis for the Study of Normal and Pathological Brain Function.
+PY  - 2022
+AB  - Psychiatric and neurological disorders are influenced by an undetermined number of genes and molecular pathways that may differ among afflicted individuals. Functionally testing and characterizing biological systems is essential to discovering the interrelationship among candidate genes and understanding the neurobiology of behavior. Recent advancements in genetic, genomic, and behavioral approaches are revolutionizing modern neuroscience. Although these tools are often used separately for independent experiments, combining these areas of research will provide a viable avenue for multidimensional studies on the brain. Herein we will briefly review some of the available tools that have been developed for characterizing novel cellular and animal models of human disease. A major challenge will be openly sharing resources and datasets to effectively integrate seemingly disparate types of information and how these systems impact human disorders. However, as these emerging technologies continue to be developed and adopted by the scientific community, they will bring about unprecedented opportunities in our understanding of molecular neuroscience and behavior.
+SP  - 905328
+EP  - NA
+JF  - Frontiers in molecular neuroscience
+VL  - 15
+IS  - NA
+PB  - 
+DO  - 10.3389/fnmol.2022.905328
+ER  - 
+
+TY  - NA
+AU  - Mizumoto, Nobuaki; Hellemans, Simon; Engel, Michael S; Bourguignon, Thomas; Buček, Aleš
+TI  - Extinct and extant termites reveal the fidelity of behavior fossilization in amber
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Fossils encompassing multiple individuals provide rare direct evidence of behavioral interactions among extinct organisms. However, the fossilization process can alter the spatial relationship between individuals and hinder behavioral reconstruction. Here, we report a Baltic amber inclusion preserving a female-male pair of the extinct termite species<jats:italic>Electrotermes affinis</jats:italic>. The head-to-abdomen contact in the fossilized pair resembles the tandem courtship behavior of extant termites, although their parallel body alignment differs from the linear alignment typical of tandem runs. To solve this inconsistency, we simulated the first stage of amber formation, the immobilization of captured organisms, by exposing living termite tandems to sticky surfaces. We found that the posture of the fossilized pair matches trapped tandems and differs from untrapped tandems. Thus, the fossilized pair likely is a tandem running pair, representing the first direct evidence of the mating behavior of extinct termites. Furthermore, by comparing the positions of partners on a sticky surface and in the amber inclusion, we estimated to 67% the probability that the leader role in the fossilized tandem was performed by a male. Our results demonstrate that past behavioral interactions can be reconstructed despite the spatial distortion of body poses during fossilization. Our taphonomic approach clarifies how certain behaviors can be inferred from fossil occurrences.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.05.22.541647
+ER  - 
+
+TY  - JOUR
+AU  - Berio, Fidji; Morerod, Camille; Qi, Xuewei; Di Santo, Valentina
+TI  - Ontogenetic Plasticity in Shoaling Behavior in a Forage Fish under Warming.
+PY  - 2023
+AB  - Shoaling behavior is known to increase survival rates during attacks from predators, minimize foraging time, favor mating, and potentially increase locomotor efficiency. The onset of shoaling typically occurs during the larval phase but it is unclear how it may improve across ontogenetic stages in forage fishes. Warming is known to increase metabolic rates during locomotion in solitary fish, and shoaling species may adjust their collective behavior to offset the elevated costs of swimming at higher temperatures. In this study, we quantified the effects of warming on shoaling performance across ontogeny of a small forage fish, zebrafish (Danio rerio) at different speeds. Shoals of larval, juvenile, and adult zebrafish were acclimated at two temperatures (28○C and 32○C), and metabolic rates were quantified prior and following non-exhaustive exercise at high speed. Shoals of 5 individuals were filmed in a flow tank to analyze kinematics of collective movement. We found that zebrafish improve shoaling swimming performance from larvae to juveniles to adults. In particular, shoals become more cohesive, and both tail beat frequency and head-to-tail amplitude decrease with ontogeny. Early life stages have higher thermal sensitivity in metabolic rates and tail beat frequency especially at high speeds, when compared to adults. Our study shows that shoaling behavior and thermal sensitivity improve as zebrafish shift from larval to juvenile to adult stages.
+SP  - NA
+EP  - NA
+JF  - Integrative and comparative biology
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1093/icb/icad043
+ER  - 
+
+TY  - NA
+AU  - Chiang, Vic Shao-Chih; Park, Jin Ho
+TI  - Using DeepLabCut to study sexual behaviour in the lab and the wild
+PY  - 2022
+AB  - <jats:p>Traditional methods study non-human sexual behaviour by manual annotations of selected sexual behaviour parameters, which can create errors. These limitations can be addressed using the multi-animal pose-estimation toolbox, DeepLabCut. It automatically identifies body parts that can be used to infer behaviour. Some sexual behaviour recordings are very low-resolution. This is problematic for DeepLabCut because the annotator cannot accurately identify the body parts. To circumvent this, we labelled frames from high-resolution videos, followed by customised data augmentation during neural network training. Simple Behavioral Analysis was used to generate random forest classifiers for male sexual behaviours. There was a wide range of errors between the human-labelled and machine-identified body parts, and the behavioural classifiers did not match manual annotations. In addition to the lab, neuroscientists need to study sexual behaviour in the wild, to facilitate the understanding of sexual diversity across species, ecosystems and evolution. Camera traps are commonly used to capture behaviour in the wild, but it is extremely time-consuming to manually review camera trap datasets that are usually in hundreds of thousands to millions of images. To address this, we used MegaDetector to identify animals in a camera trap dataset from Wellington, New Zealand. Following that, we used DeepLabCut Model Zoo to identify body parts. This pose estimation enabled us to screen images where animals were physically interacting. However, the potential of DeepLabCut had not been fully realised in this use case, due to the difficulty for the model to identify body parts in these images.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.14293/s2199-1006.1.sor-.ppz7ckb.v1
+ER  - 
+
+TY  - JOUR
+AU  - Marx, Vivien
+TI  - Mackenzie Weygandt Mathis.
+PY  - 2022
+AB  - Building a sustainable open source toolbox to track social behavior and how to get in the zone.
+SP  - 373
+EP  - 373
+JF  - Nature methods
+VL  - 19
+IS  - 4
+PB  - 
+DO  - 10.1038/s41592-022-01438-x
+ER  - 
+
+TY  - JOUR
+AU  - Miranda, Lucas; Bordes, Joeri; Gasperoni, Serena; Lopez, Juan Pablo
+TI  - Increasing resolution in stress neurobiology: from single cells to complex group behaviors.
+PY  - 2023
+AB  - Stress can have severe psychological and physiological consequences. Thus, inappropriate regulation of the stress response is linked to the etiology of mood and anxiety disorders. The generation and implementation of preclinical animal models represent valuable tools to explore and characterize the mechanisms underlying the pathophysiology of stress-related psychiatric disorders and the development of novel pharmacological strategies. In this commentary, we discuss the strengths and limitations of state-of-the-art molecular and computational advances employed in stress neurobiology research, with a focus on the ever-increasing spatiotemporal resolution in cell biology and behavioral science. Finally, we share our perspective on future directions in the fields of preclinical and human stress research.
+SP  - 2186141
+EP  - NA
+JF  - Stress (Amsterdam, Netherlands)
+VL  - 26
+IS  - 1
+PB  - 
+DO  - 10.1080/10253890.2023.2186141
+ER  - 
+
+TY  - NA
+AU  - Sakata, Shuzo
+TI  - SaLSa: a combinatory approach of semi-automatic labeling and long short-term memory to classify behavioral syllables
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Accurately and quantitatively describing mouse behavior is an important area. Although advances in machine learning have made it possible to track their behaviors accurately, reliable classification of behavioral sequences or syllables remains a challenge. In this study, we present a novel machine learning approach, called SaLSa (a combination of semi-automatic labeling and long short-term memory-based classification), to classify behavioral syllables of mice exploring an open field. This approach consists of two major steps: first, after tracking multiple body parts, spatial and temporal features of their egocentric coordinates are extracted. A fully automated unsupervised process identifies candidates for behavioral syllables, followed by manual labeling of behavioral syllables using a graphical user interface. Second, a long short-term memory (LSTM) classifier is trained with the labeled data. We found that the classification performance was marked over 96%. It provides a performance equivalent to a state-of-the-art model while classifying some of the syllables. We applied this approach to examine how hyperactivity in a mouse model of Alzheimer’s disease (AD) develops with age. When the proportion of each behavioral syllable was compared between genotypes and sexes, we found that the characteristic hyper-locomotion of female AD mice emerges between 4 and 8 months. In contrast, age-related reduction in rearing is common regardless of genotype and sex. Overall, SaLSa enables detailed characterization of mouse behavior.</jats:p><jats:sec><jats:title>Significance Statement</jats:title><jats:p>Describing complex animal behavior is a challenge. Here, we developed an open-source, combinatory approach to behavioral syllable classification, called SaLSa (a combination of<jats:bold>s</jats:bold>emi-<jats:bold>a</jats:bold>utomatic labeling and<jats:bold>l</jats:bold>ong<jats:bold>s</jats:bold>hort-term memory-based cl<jats:bold>a</jats:bold>ssification). In order to classify behavioral syllables, this approach combines multiple machine learning methods to label video frames semi-automatically and train a deep learning model. To demonstrate SaLSa’s versatility, we monitored the exploratory behavior of an Alzheimer’s disease mouse model and delineated their complex behaviors. We found that female Alzheimer’s mice become hyperactive in the sense that their locomotion behavior, but not other active behaviors, appear more frequently than controls and even male Alzheimer’s mice as they age. SaLSa offers a toolkit to analyze complex behaviors.</jats:p></jats:sec>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.04.05.535796
+ER  - 
+
+TY  - JOUR
+AU  - Benedict, Jessie; Cudmore, Robert H
+TI  - PiE: an open-source pipeline for home cage behavioral analysis.
+PY  - 2023
+AB  - Over the last two decades a growing number of neuroscience labs are conducting behavioral assays in rodents. The equipment used to collect this behavioral data must effectively limit environmental and experimenter disruptions, to avoid confounding behavior data. Proprietary behavior boxes are expensive, offer limited compatible sensors, and constrain analysis with closed-source hardware and software. Here, we introduce PiE, an open-source, end-to-end, user-configurable, scalable, and inexpensive behavior assay system. The PiE system includes the custom-built behavior box to hold a home cage, as well as software enabling continuous video recording and individual behavior box environmental control. To limit experimental disruptions, the PiE system allows the control and monitoring of all aspects of a behavioral experiment using a remote web browser, including real-time video feeds. To allow experiments to scale up, the PiE system provides a web interface where any number of boxes can be controlled, and video data easily synchronized to a remote location. For the scoring of behavior video data, the PiE system includes a standalone desktop application that streamlines the blinded manual scoring of large datasets with a focus on quality control and assay flexibility. The PiE system is ideal for all types of behavior assays in which video is recorded. Users are free to use individual components of this setup independently, or to use the entire pipeline from data collection to analysis. Alpha testers have included scientists without prior coding experience. An example pipeline is demonstrated with the PiE system enabling the user to record home cage maternal behavior assays, synchronize the resulting data, conduct blinded scoring, and import the data into R for data visualization and analysis.
+SP  - 1222644
+EP  - NA
+JF  - Frontiers in neuroscience
+VL  - 17
+IS  - NA
+PB  - 
+DO  - 10.3389/fnins.2023.1222644
+ER  - 
+
+TY  - JOUR
+AU  - Bumgarner, Jacob R; Becker-Krail, Darius D; White, Rhett C; Nelson, Randy J
+TI  - Machine learning and deep learning frameworks for the automated analysis of pain and opioid withdrawal behaviors.
+PY  - 2022
+AB  - The automation of behavioral tracking and analysis in preclinical research can serve to advance the rate of research outcomes, increase experimental scalability, and challenge the scientific reproducibility crisis. Recent advances in the efficiency, accuracy, and accessibility of deep learning (DL) and machine learning (ML) frameworks are enabling this automation. As the ongoing opioid epidemic continues to worsen alongside increasing rates of chronic pain, there are ever-growing needs to understand opioid use disorders (OUDs) and identify non-opioid therapeutic options for pain. In this review, we examine how these related needs can be advanced by the development and validation of DL and ML resources for automated pain and withdrawal behavioral tracking. We aim to emphasize the utility of these tools for automated behavioral analysis, and we argue that currently developed models should be deployed to address novel questions in the fields of pain and OUD research.
+SP  - 953182
+EP  - NA
+JF  - Frontiers in neuroscience
+VL  - 16
+IS  - NA
+PB  - 
+DO  - 10.3389/fnins.2022.953182
+ER  - 
+
+TY  - JOUR
+AU  - Sun, Jun; Wu, Jing; Liao, Xianghui; Wang, Sijia; Wang, Mantao
+TI  - A Large-Scale Mouse Pose Dataset for Mouse Pose Estimation
+PY  - 2022
+AB  - <jats:p>Mouse pose estimations have important applications in the fields of animal behavior research, biomedicine, and animal conservation studies. Accurate and efficient mouse pose estimations using computer vision are necessary. Although methods for mouse pose estimations have developed, bottlenecks still exist. One of the most prominent problems is the lack of uniform and standardized training datasets. Here, we resolve this difficulty by introducing the mouse pose dataset. Our mouse pose dataset contains 40,000 frames of RGB images and large-scale 2D ground-truth motion images. All the images were captured from interacting lab mice through a stable single viewpoint, including 5 distinct species and 20 mice in total. Moreover, to improve the annotation efficiency, five keypoints of mice are creatively proposed, in which one keypoint is at the center and the other two pairs of keypoints are symmetric. Then, we created simple, yet effective software that works for annotating images. It is another important link to establish a benchmark model for 2D mouse pose estimations. We employed modified object detections and pose estimation algorithms to achieve precise, effective, and robust performances. As the first large and standardized mouse pose dataset, our proposed mouse pose dataset will help advance research on animal pose estimations and assist in application areas related to animal experiments.</jats:p>
+SP  - 875
+EP  - 875
+JF  - Symmetry
+VL  - 14
+IS  - 5
+PB  - 
+DO  - 10.3390/sym14050875
+ER  - 
+
+TY  - NA
+AU  - Benedict, Jessie; Cudmore, Robert H
+TI  - PiE: An open-source pipeline for home cage behavioral analysis
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Over the last two decades a growing number of neuroscience labs are conducting behavioral assays in rodents. The equipment used to collect this behavioral data must effectively limit environmental and experimenter disruptions, to avoid confounding behavior data. Proprietary behavior boxes are expensive, offer limited compatible sensors, and constrain analysis with closed-source hardware and software. Here, we introduce PiE, an open-source, end-to-end, user-configurable, scalable, and inexpensive behavior assay system. The PiE system includes the custom-built behavior box to hold a home cage, as well as software enabling continuous video recording and individual behavior box environmental control. To limit experimental disruptions, the PiE system allows the control and monitoring of all aspects of a behavioral experiment using a remote web browser, including real-time video feeds. To allow experiments to scale up, the PiE system provides a web interface where any number of boxes can be controlled, and video data easily synchronized to a remote location. For the scoring of behavior video data, the PiE system includes a standalone desktop application that streamlines the blinded manual scoring of large datasets with a focus on quality control and assay flexibility. The PiE system is ideal for all types of behavior assays in which video is recorded. Users are free to use individual components of this setup independently, or to use the entire pipeline from data collection to analysis. Alpha testers have included scientists without prior coding experience. An example pipeline is demonstrated with the PiE system enabling the user to record home cage maternal behavior assays, synchronize the resulting data, conduct blinded scoring, and import the data into R for data visualization and analysis.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.05.05.539097
+ER  - 
+
+TY  - JOUR
+AU  - Hassan, Sami I; Bigler, Shivani; Siegelbaum, Steven A
+TI  - Social odor discrimination and its enhancement by associative learning in the hippocampal CA2 region.
+PY  - 2023
+AB  - NA
+SP  - 2232
+EP  - 2246.e5
+JF  - Neuron
+VL  - 111
+IS  - 14
+PB  - 
+DO  - 10.1016/j.neuron.2023.04.026
+ER  - 
+
+TY  - JOUR
+AU  - Kim, Woohyun; Shin, Jae Jin; Jeong, Yu Jin; Kim, Kyungdeok; Bae, Jung Won; Noh, Young Woo; Lee, Seungjoon; Choi, Woochul; Paik, Se-Bum; Jung, Min Whan; Lee, Eunee; Kim, Eunjoon
+TI  - Suppressed prefrontal neuronal firing variability and impaired social representation in IRSp53-mutant mice.
+PY  - 2022
+AB  - Social deficit is a major feature of neuropsychiatric disorders, including autism spectrum disorders, schizophrenia, and attention-deficit/hyperactivity disorder, but its neural mechanisms remain unclear. Here, we examined neuronal discharge characteristics in the medial prefrontal cortex (mPFC) of IRSp53/Baiap2-mutant mice, which show social deficits, during social approach. We found a decrease in the proportion of IRSp53-mutant excitatory mPFC neurons encoding social information, but not that encoding non-social information. In addition, the firing activity of IRSp53-mutant neurons was less differential between social and non-social targets. IRSp53-mutant excitatory mPFC neurons displayed an increase in baseline neuronal firing, but decreases in the variability and dynamic range of firing as well as burst firing during social and non-social target approaches compared to wild-type controls. Treatment of memantine, an NMDA receptor antagonist that rescues social deficit in IRSp53-mutant mice, alleviates the reduced burst firing of IRSp53-mutant pyramidal mPFC neurons. These results suggest that suppressed neuronal activity dynamics and burst firing may underlie impaired cortical encoding of social information and social behaviors in IRSp53-mutant mice.
+SP  - NA
+EP  - NA
+JF  - eLife
+VL  - 11
+IS  - NA
+PB  - 
+DO  - 10.7554/elife.74998
+ER  - 
+
+TY  - JOUR
+AU  - Praetorius, Jan-Philipp; Walluks, Kassandra; Svensson, Carl-Magnus; Arnold, Dirk; Figge, Marc Thilo
+TI  - IMFSegNet: Cost-effective and objective quantification of intramuscular fat in histological sections by deep learning.
+PY  - 2023
+AB  - The assessment of muscle condition is of great importance in various research areas. In particular, evaluating the degree of intramuscular fat (IMF) in tissue sections is a challenging task, which today is still mostly performed qualitatively or quantitatively by a highly subjective and error-prone manual analysis. We here realize the mission to make automated IMF analysis possible that (i) minimizes subjectivity, (ii) provides accurate and quantitative results quickly, and (iii) is cost-effective using standard hematoxylin and eosin (H&E) stained tissue sections. To address all these needs in a deep learning approach, we utilized the convolutional encoder-decoder network SegNet to train the specialized network IMFSegNet allowing to accurately quantify the spatial distribution of IMF in histological sections. Our fully automated analysis was validated on 17 H&E-stained muscle sections from individual sheep and compared to various state-of-the-art approaches. Not only does IMFSegNet outperform all other approaches, but this neural network also provides fully automated and highly accurate results utilizing the most cost-effective procedures of sample preparation and imaging. Furthermore, we shed light on the opacity of black-box approaches such as neural networks by applying an explainable artificial intelligence technique to clarify that the success of IMFSegNet actually lies in identifying the hard-to-detect IMF structures. Embedded in our open-source visual programming language JIPipe that does not require programming skills, it can be expected that IMFSegNet advances muscle condition assessment in basic research across multiple areas as well as in research fields focusing on translational clinical applications.
+SP  - 3696
+EP  - 3704
+JF  - Computational and structural biotechnology journal
+VL  - 21
+IS  - NA
+PB  - 
+DO  - 10.1016/j.csbj.2023.07.031
+ER  - 
+
+TY  - NA
+AU  - Plum, Fabian; Bulla, Reńe; Beck, Hendrik; Imirzian, Natalie; Labonte, David
+TI  - <i>replicAnt</i>- generating annotated images of animals in complex environments with Unreal Engine
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Deep learning-based computer vision methods are transforming animal behavioural research. Transfer learning has enabled work in non-model species, but still requires hand-annotation of example footage, and is only performant in well-defined conditions. To overcome these limitations, we created<jats:italic>replicAnt</jats:italic>, a configurable pipeline implemented in Unreal Engine 5 and Python, designed to generate large and variable training datasets on consumer-grade hardware instead.<jats:italic>replicAnt</jats:italic>places 3D animal models into complex, procedurally generated environments, from which automatically annotated images can be exported. We demonstrate that synthetic data generated with<jats:italic>replicAnt</jats:italic>can significantly reduce the hand-annotation required to achieve benchmark performance in common applications such as animal detection, tracking, pose-estimation, and semantic segmentation; and that it increases the subject-specificity and domaininvariance of the trained networks, so conferring robustness. In some applications,<jats:italic>replicAnt</jats:italic>may even remove the need for hand-annotation altogether. It thus represents a significant step towards porting deep learning-based computer vision tools to the field.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.04.20.537685
+ER  - 
+
+TY  - JOUR
+AU  - Iriki, Atsushi; Tramacere, Antonella
+TI  - "Natural Laboratory Complex" for novel primate neuroscience.
+PY  - 2022
+AB  - We propose novel strategies for primate experimentation that are ethically valuable and pragmatically useful for cognitive neuroscience and neuropsychiatric research. Specifically, we propose <i>Natural Laboratory Complex</i> or <i>Natural Labs</i>, which are a combination of indoor-outdoor structures for studying free moving and socially housed primates in natural or naturalistic environment. We contend that <i>Natural Labs</i> are pivotal to improve primate welfare, and at the same time to implement longitudinal and socio-ecological studies of primate brain and behavior. Currently emerging advanced technologies and social systems (<i>including</i> recent COVID-19 induced "remote" infrastructures) can speed-up cognitive neuroscience approaches in freely behaving animals. Experimental approaches in natural(istic) settings are not in competition with conventional approaches of laboratory investigations, and could establish several benefits at the ethical, experimental, and economic levels.
+SP  - 927605
+EP  - NA
+JF  - Frontiers in integrative neuroscience
+VL  - 16
+IS  - NA
+PB  - 
+DO  - 10.3389/fnint.2022.927605
+ER  - 
+
+TY  - JOUR
+AU  - Migliaro, Martin; Ruiz-Contreras, Alejandra E.; Herrera-Solís, Andrea; Méndez-Díaz, Mónica; Prospéro-García, Oscar E.
+TI  - Endocannabinoid system and aggression across animal species
+PY  - NA
+AB  - NA
+SP  - 105375
+EP  - NA
+JF  - Neuroscience & Biobehavioral Reviews
+VL  - 153
+IS  - NA
+PB  - 
+DO  - 10.1016/j.neubiorev.2023.105375
+ER  - 
+
+TY  - NA
+AU  - Wang, Yuchen; Jin, Xin; Castro, Carlos
+TI  - Accelerating the Characterization of Dynamic DNA Origami Devices with Deep Neural Networks
+PY  - 2023
+AB  - <jats:title>Abstract</jats:title><jats:p>Mechanical characterization of dynamic DNA nanodevices is essential to facilitate their use in applications like molecular diagnostics, force sensing, and nanorobotics that rely on device reconfiguration and interactions with other materials. A common approach to evaluate the mechanical properties of dynamic DNA nanodevices is by quantifying conformational distributions, where the magnitude of fluctuations correlates to the stiffness. This is generally carried out through manual measurement from experimental images, which is a tedious process and a critical bottleneck in the characterization pipeline. While many tools to support analysis of static of molecular structures, there is a need for tools to facilitate the rapid characterization of dynamic DNA devices that undergo large conformational fluctuations. Here, we develop a data processing pipeline based on Deep Neural Networks (DNNs) to address this problem. The YOLOv5 and Resnet50 network architecture were used for the two key subtasks: particle detection and pose (i.e. conformation) estimation. We demonstrate effective network performance (F1 score of 0.85 in particle detection) and good agreement with experimental distributions with limited user input and small training sets. We also demonstrate this pipeline can be applied to multiple nanodevices, providing a robust approach for the rapid characterization of dynamic DNA devices.</jats:p>
+SP  - NA
+EP  - NA
+JF  - NA
+VL  - NA
+IS  - NA
+PB  - 
+DO  - 10.1101/2023.05.11.540408
+ER  - 
+
+TY  - JOUR
+AU  - Su, Feng; Wang, Yangzhen; Wei, Mengping; Wang, Chong; Wang, Shaoli; Yang, Lei; Li, Jianmin; Yuan, Peijiang; Luo, Dong-Gen; Zhang, Chen
+TI  - Noninvasive Tracking of Every Individual in Unmarked Mouse Groups Using Multi-Camera Fusion and Deep Learning.
+PY  - 2022
+AB  - NA
+SP  - 893
+EP  - 910
+JF  - Neuroscience bulletin
+VL  - 39
+IS  - 6
+PB  - 
+DO  - 10.1007/s12264-022-00988-6
+ER  - 
