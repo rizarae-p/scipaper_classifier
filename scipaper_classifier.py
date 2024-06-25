@@ -65,7 +65,7 @@ def isSupplementary(pdf_path):
       Returns:
           bool: True if the filename suggests it's a supplementary file, False otherwise.
     """
-    keywords = ["Supplementary","supplementary","suppl","supplement","Supplement"]
+    keywords = ["_supplement"]
     for i in keywords:
         if i in pdf_path:
             return True
@@ -85,25 +85,15 @@ def get_top_keyword_from_pdf(pdf_path, matcher,nlp):
           str: The most frequent animal term (excluding watchlist terms), 
               or False if no animal terms are found or the file is supplementary.
     """
-    if isSupplementary(pdf_path):
-        print("Supplementary doc -- skip")
-        return False
+    # if isSupplementary(pdf_path):
+    #     print("Supplementary doc -- skip")
+    #     return False
     full_text = ""
-    animals_in_papers = {}
-    sections_for_checking = ["Methodology","Materials and Methods","Results","Methods"]
+    sections_for_checking = ["Abstract", "Methodology","Materials and Methods","Results","Methods", "Materials and Equipment"]
 
     with fitz.open(pdf_path) as pdf_document:
         toc = pdf_document.get_toc()
-        if len(toc) == 0 or all(entry[2] == 0 for entry in toc):
-            pdf_length = len(pdf_document)
-            mid_page = pdf_length//2
-            # print("No table of contents found, reading selected pages 1",",".join([str(a) for a in range(mid_page-2,mid_page+2,1)]))
-            full_text = pdf_document.load_page(0).get_text("text")  
-            for page_num in range(mid_page-2,mid_page+2,1): 
-                if page_num < pdf_length:
-                    page_text = pdf_document.load_page(page_num).get_text("text")
-                    full_text += "\n" + page_text
-        else:
+        if len(toc) > 0:
             # print("Table of contents found.")
             sections = {}
             current_section = None
@@ -128,12 +118,30 @@ def get_top_keyword_from_pdf(pdf_path, matcher,nlp):
                     page_text = pdf_document.load_page(page_num).get_text("text")
                     full_text += "\n" + page_text
 
-    # if "DeepLabCut" in full_text:
+        if len(full_text) == 0:
+            pdf_length = len(pdf_document)
+            if pdf_length > 6:
+                mid_page = pdf_length//2
+                # print("No table of contents found, reading selected pages 1",",".join([str(a) for a in range(mid_page-2,mid_page+2,1)]))
+                full_text = pdf_document.load_page(0).get_text("text") + "\n" + pdf_document.load_page(1).get_text("text")
+                for page_num in range(mid_page-2,mid_page+2,1): 
+                    if page_num < pdf_length:
+                        page_text = pdf_document.load_page(page_num).get_text("text")
+                        full_text += "\n" + page_text
+            elif pdf_length > 2:
+                full_text = pdf_document.load_page(0).get_text("text")
+                for page_num in range(1,pdf_length): 
+                        page_text = pdf_document.load_page(page_num).get_text("text")
+                        full_text += "\n" + page_text
+            else:
+                print("Skip",pdf_path)
+                return False
+
+
     animals = tokenize_and_match(full_text, matcher,nlp)
-    animals_in_papers[pdf_path] = animals
     top_keyword = get_top_keyword(animals)
-    # else:
-        # return False
+    # print(pdf_path, top_keyword, animals)
+
     return top_keyword
 
 def analyze_papers(directory):
@@ -157,8 +165,9 @@ def analyze_papers(directory):
     tot = 0
     skipped = 0 
     total_counter = {}
-    nlp = spacy.load('en_core_web_sm')
     ctr = 1
+    nlp = spacy.load('en_core_web_sm')
+    # print("English dictionary loaded..")
     matcher = PhraseMatcher(nlp.vocab)
 
     with open("classes", "r") as file:
@@ -169,49 +178,56 @@ def analyze_papers(directory):
 
     for filename in os.listdir(directory):
         if filename.endswith(".pdf"):
-            #print("Reading",ctr,"of",len(os.listdir(directory)))
+            # print("Reading",ctr,"of",len(os.listdir(directory)))
             file_path = os.path.join(directory, filename)
-            top_keyword = get_top_keyword_from_pdf(file_path, matcher,nlp)
-            if top_keyword:
-                if top_keyword not in total_counter.keys():
-                    total_counter[top_keyword] = 1
-                    tot+=1
-                else:
-                    total_counter[top_keyword] += 1
-                    tot+=1
+            _file_path = file_path.replace("papers_full/","").replace("-"," ").replace("_"," ").replace(".pdf","").lower()
+            doc = nlp(_file_path)
+            title_tokens = matcher(doc)
+            matched_texts = []
+            for match_id, start, end in title_tokens:
+                span = doc[start:end]
+                matched_texts.append(span.text)
+            top_keyword = get_top_keyword(matched_texts)
+            if not(top_keyword):
+                top_keyword = get_top_keyword_from_pdf(file_path, matcher,nlp)
+            
+            if top_keyword not in total_counter.keys():
+                total_counter[top_keyword] = 1
+                tot+=1
             else:
+                total_counter[top_keyword] += 1
+                tot+=1
+            if not(top_keyword):
+                print("No topword",filename)
                 skipped+=1
-
-            # if top_keyword in WATCHLIST:
-            #     print(top_keyword, animals, paper_title)
         ctr+=1
     return total_counter,tot,skipped
 
-def analyze_pickle(filename):
-    skipped = 0
-    total_counter = {}
-    tot = 0
+# def analyze_pickle(filename):
+#     skipped = 0
+#     total_counter = {}
+#     tot = 0
     
 
-    with open(filename, "rb") as f:
-      loaded_object = pickle.load(f)
+#     with open(filename, "rb") as f:
+#       loaded_object = pickle.load(f)
 
-    for paper_title in loaded_object.keys():
-      aanimals = loaded_object[paper_title]
-      top_keyword = get_top_keyword(aanimals)
+#     for paper_title in loaded_object.keys():
+#       aanimals = loaded_object[paper_title]
+#       top_keyword = get_top_keyword(aanimals)
 
-      if top_keyword:
-        if top_keyword not in total_counter.keys():
-            total_counter[top_keyword] = 1
-            tot+=1
-        else:
-            total_counter[top_keyword] += 1
-            tot+=1
-      else:
-        skipped+=1
+#       if top_keyword:
+#         if top_keyword not in total_counter.keys():
+#             total_counter[top_keyword] = 1
+#             tot+=1
+#         else:
+#             total_counter[top_keyword] += 1
+#             tot+=1
+#       else:
+#         skipped+=1
 
-      if top_keyword in WATCHLIST:
-        print(top_keyword, animals, paper_title)
+#       if top_keyword in WATCHLIST:
+#         print(top_keyword, animals, paper_title)
 
-    return total_counter,tot,skipped
+#     return total_counter,tot,skipped
 
